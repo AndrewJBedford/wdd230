@@ -4,4 +4,4 @@ const dateTimeObject = new Date();
 const fullYear = dateTimeObject.getFullYear();
 const currentYear = document.getElementById("currentYear");
 currentYear.textContent = fullYear;
-const lastUpdated = document.getElementById("lastUpdated").textContent = document.lastmodified;
+document.getElementById("lastUpdated").textContent = document.lastmodified;
