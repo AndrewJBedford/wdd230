@@ -1,11 +1,5 @@
-document.getElementById("lastmodified").textContent = document.lastmodified;
-const dateTimeObject = new Date();
-const fullYear = dateTimeObject.getFullYear();
-const currentYear = document.getElementById("currentYear");
-currentYear.textContent = fullYear;
-let modified = new Date(document.lastModified);
-let formattedDate = `Last Modified: ${months[modified.getMonth()]} ${modified.getDate()}, ${modified.getUTCFullYear()}`;
-document.getElementById("lastmodified").innerHTML = formattedDate;
+let latestMod = document.lastModified;
 let today = new Date();
-let theYear = today.getFullYear();
-document.getElementById("year").innerHTML = theYear;
+
+document.getElementById('latestModified').innerText = latestMod;
+const newLocal = document.getElementById('currentYear').textContent = today.getFullYear();
