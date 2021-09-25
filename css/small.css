@@ -1,13 +1,13 @@
 html {
     max-width: 960px;
     margin: 0 auto;
-    padding: 1em;
+    padding: 10px;
     background-color: whitesmoke;
 }
   body {
     font-size: 16px;
     color: whitesmoke;
-    margin: 1em;
+    margin: 0 auto;
     font-family: 'Asul', sans-serif; 
 }
   h1 {
