@@ -8,17 +8,17 @@ html {
     font-size: 16px;
     color: whitesmoke;
     margin: 1.5em;
-    font-family: "Berkshire Swash", sans-serif; 
+    font-family: 'Asul', sans-serif; 
 }
   h1 {
     color: whitesmoke;
-    font-family: "Berkshire Swash", sans-serif;
+    font-family: 'Berkshire Swash', cursive;
     font-size: 36px;
     text-align: center;
  }
   h2 {
     color: whitesmoke;
-    font-family: "Berkshire Swash", sans-serif;
+    font-family: 'Berkshire Swash', cursive;
     font-size: 16px;
     padding: 1em;
  }
