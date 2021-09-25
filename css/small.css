@@ -1,0 +1,53 @@
+html {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: whitesmoke;
+}
+  body {
+    font-size: 16px;
+    color: whitesmoke;
+    margin: 1.5em;
+    font-family: "Berkshire Swash", sans-serif; 
+}
+  h1 {
+    color: whitesmoke;
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 36px;
+    text-align: center;
+ }
+  h2 {
+    color: whitesmoke;
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 16px;
+    padding: 1em;
+ }
+  img {
+    height: 150px;
+}
+  p {
+    color: whitesmoke;
+    font-size: 16px;
+}
+ header, main, footer {
+    max-width: 760px;
+    background-color:#143109;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    height: 50px;
+}
+  img {
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+  a {
+    color: yellow;
+    text-decoration: none;
+    }  
+  a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
