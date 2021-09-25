@@ -3,7 +3,7 @@
     float: right;
     height: auto;
     width: 200px;
-    padding: 3.5em;
+    padding: 1em;
 }
     h1 {
     font-size: 36px;
@@ -11,10 +11,15 @@
     h2 {
     font-size: 24px;
     padding: 1em;
+    text-align: center;
 }
     header, main, footer {
-    border-radius: 10px;
-	height: 50px;
+    max-width: 760px;
+    background-color:#143109;
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+
 }
     body {
     font-size: 16px;
