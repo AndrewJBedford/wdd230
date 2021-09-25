@@ -4,4 +4,3 @@ let formattedDate = `Last updated: ${months[modified.getMonth()]} ${modified.get
 document.getElementById("lastmodified").innerHTML = formattedDate;
 let today = new Date();
 let theYear = today.getFullYear();
-document.getElementById("year").innerHTML = theYear;
