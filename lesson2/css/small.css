@@ -12,7 +12,7 @@ body {
 }
 header{
     background-color: #F58A07 ;
-    color:whitesmoke;
+    color:#004EF5;
 }
 header, main {
   text-align: center;
@@ -53,5 +53,5 @@ footer {
     color: whitesmoke;
 }
 a {
-    color: rgb(224, 9, 243);
+    color: rgb(95, 243, 9);
 }
