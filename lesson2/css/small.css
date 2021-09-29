@@ -1,7 +1,6 @@
 .main-area {
     display: grid;
     grid-gap: 5px;
-    max-width: auto;
     grid-template-columns: 1fr;
 }
 body {
