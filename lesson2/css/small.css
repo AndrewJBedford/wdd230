@@ -1,6 +1,6 @@
 .main-area {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 760px;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr;
