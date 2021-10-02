@@ -13,6 +13,10 @@ body {
     font-size: 16px;
      font-family:'Berkshire Swash', cursive;
 }
-header{
-
+header {
+    text-align: center;
+    padding: 1rem;
+    color:#102E4A;
+    background-color:#99300A ;
+    
 }
