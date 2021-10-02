@@ -1,5 +1,5 @@
 main {
-    background-color: whitesmoke;
+    background-color: #8A95A5;
     margin: 0.5rem;
     font-size: 16px;
     padding: 1rem;
@@ -8,6 +8,6 @@ main {
 body {
         max-width: 940px;
         margin: 0 auto;
-        background-color: #8A95A5;
+        background-color: whitesmoke;
         padding: 1rem;
     }
