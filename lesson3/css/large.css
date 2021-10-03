@@ -2,7 +2,6 @@
     body {
         max-width: 960px;
         margin: auto;
-        display:flex;
     }
     nav ul {
         display: flex;
