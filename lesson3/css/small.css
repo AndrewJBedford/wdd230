@@ -1,5 +1,5 @@
 main {
-    background-color: #758295;
+    background-color:#758295;
     margin: 0.5rem;
     font-size: 16px;
     padding: 1rem;
@@ -8,15 +8,110 @@ main {
 body {
     max-width: 940px;
     margin: 0 auto;
-    background-color: whitesmoke;
+    background-color:#FFFFFF;
     padding: 1rem;
-    font-size: 16px;
-     font-family:'Berkshire Swash', cursive;
 }
 header {
     text-align: center;
     padding: 1rem;
-    color:#102E4A;
-    background-color:#99300A ;
-    
+    background-color:#E6480F;
+    color:#4791D7;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+h1 {
+    font-size: 3.5rem;
+    margin: 0 auto;
+}
+h1,h2, h3, h4, h5 {
+    font-family:'Berkshire Swash', cursive;
+    color:#00E070;
+    text-align:center;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+p {
+    color:#00E070;
+    font-size: 16px;
+    font-family:'Asul', sans-serif;
+    text-align:center;
+}
+.colors {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align:center;
+}
+.colors th {
+    background-color:#0000;
+    color:whitesmoke;
+}
+.colors td {
+    width: 50%;
+    height: 3rem;
+}
+.primary {
+    background-color:#758295;
+}
+.secondary {
+    background-color:#E6480F;
+}
+.accent1 {
+    background-color:#4791D7;
+}
+.accent2 {
+    background-color:#00E070;
+}
+.accent3 {
+    background-color:#FFFFFF;
+}
+a {
+    color:#4791D7;
+    font-size: 1.5rem;
+    font-family:'Asul', sans-serif;
+    text-decoration: none;
+}
+nav {
+    background-color: #4791D7;
+    color:#E6480F;
+    line-height: 3rem;
+    text-align:center;
+    font-size: 1.3rem;
+    font-family: 'Asul', sans-serif;
+}
+nav a {
+    padding: 1.5rem;
+    min-width: 70px;
+}
+nav a:link, nav a:visited {
+    color:#00E070;
+}
+nav a:hover {
+    background-color:#00E070;
+    color:#4791D7;
+}
+nav ul {
+    list-style-type:none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+}
+footer {
+    background-color:#E6480F;
+    color:#4791D7;
+    padding: 1rem;
+    text-align:center;
 }
