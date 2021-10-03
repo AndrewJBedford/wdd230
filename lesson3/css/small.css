@@ -67,6 +67,7 @@ p {
 .colors td {
     width: 50%;
     height: 3rem;
+    border: 10px solid black;
 }
 .primary {
     background-color:#758295;
