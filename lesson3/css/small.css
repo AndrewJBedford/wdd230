@@ -1,7 +1,7 @@
 main {
     margin: 0.5em;
     padding: 0.5rem;
-    background-color: #758295;
+    background-color: #C3CAD0;
 }
 body {
     max-width: 960px;
@@ -46,7 +46,7 @@ h5 {
     font-size: 1rem;
 }
 p {
-    color:#00F57A;
+    color:#003E1F;
     font-size: 20px;
     font-family:'Asul', sans-serif;
     text-align:center;
@@ -69,7 +69,7 @@ p {
     border: 5px solid black;
 }
 .primary {
-    background-color:#758295;
+    background-color:#C3CAD0;
 }
 .secondary {
     background-color:#153F65;
