@@ -1,11 +1,11 @@
 main {
-    margin: 0 auto;
+    margin: auto;
     padding: 10px;
 }
 body {
     max-width: 960px;
     font-size: 16px;
-    margin: 0 auto;
+    margin: auto;
     font-family: 'Asul', sans-serif;
     text-align:center;
 }

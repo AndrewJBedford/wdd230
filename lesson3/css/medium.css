@@ -1,7 +1,7 @@
 @media only screen and (min-width: 35em) {
     nav ul {
         display: flex;
-        margin: 0;
+        margin: auto;
         padding: 10px;
     }
     nav ul li {
