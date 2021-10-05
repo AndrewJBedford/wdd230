@@ -13,7 +13,6 @@ body {
 header {
     text-align: center;
     background-color:#153F65;
-    color:#FFCF3D;
     font-family:'Berkshire Swash', cursive;
     margin: 0.5rem;
     padding-top: 0.5rem;
@@ -27,7 +26,7 @@ img {
 h1 {
     font-size: 80px;
     margin: auto;
-    color: #153F65;
+    color:#FFCF3D;
 }
 h2, h3, h4, h5 {
     font-family:'Berkshire Swash', cursive;
@@ -47,7 +46,7 @@ h5 {
     font-size: 1rem;
 }
 p {
-    color:#003E1F;
+    color:#00F57A;
     font-size: 20px;
     font-family:'Asul', sans-serif;
     text-align:center;
@@ -96,7 +95,7 @@ nav {
 	box-shadow:#003E1F;
 }
 nav ul li a{
-    background-color: #153F65;
+    background-color: #003E1F;
     color:#FFCF3D;
 	display: block;
 	text-align: center;
