@@ -13,10 +13,9 @@ header {
     text-align: center;
     background-color:#E6480F;
     color:#4791D7;
-    font-size: 1.5rem;
     font-family:'Berkshire Swash', cursive;
     margin: 1.5rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 img {
     display: flex;
@@ -25,7 +24,7 @@ img {
     width: 30%;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 80px;
     margin: auto;
     color: #4791D7;
 }
