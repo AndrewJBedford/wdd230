@@ -26,7 +26,7 @@ img {
 }
 h1 {
     font-size: 5rem;
-    margin: 0 auto;
+    margin: auto;
     color: #4791D7;
 }
 h2, h3, h4, h5 {
@@ -57,7 +57,7 @@ p {
 .colors {
     width: 100%;
     max-width: 350px;
-    margin: 0 auto;
+    margin: auto;
     text-align:center;
 }
 .colors th {
