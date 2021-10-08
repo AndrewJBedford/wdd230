@@ -4,8 +4,6 @@
     }
     nav ul, nav ul.primaryNav {
         display: flex;
-        margin: auto;
-        padding: 0;
     }
     nav ul li {
         flex: 1 1 100%;
