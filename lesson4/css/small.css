@@ -21,7 +21,7 @@ h1 {
     color:#FFCF3D;
     font-family:'Berkshire Swash', cursive;
 }
-h2, h3, h4, h5, .motto {
+h2, h3, h4, h5 {
     font-family:'Berkshire Swash', cursive;
     color:#003E1F;
     text-align:center;
@@ -40,6 +40,9 @@ h5 {
 }
 .motto {
     font-size: 1rem;
+    color:#FFCF3D;
+    font-family:'Berkshire Swash', cursive;
+    text-align:center;
 }
 p {
     color:#FFCF3D;
