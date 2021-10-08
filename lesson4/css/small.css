@@ -59,6 +59,12 @@ a {
     text-decoration: none;
     text-align: center;   
 }
+button {
+    background-color:#003E1F;
+    color:#00F57A;
+    font-size: 1rem;
+    font-family:'Asul', sans-serif;
+}
 nav {
 	background-color:#003E1F;
     font-size: 1rem;
@@ -72,7 +78,7 @@ nav button {
     font-size: 1rem;
     background-color:#003E1F;
     color:#00F57A;
-    border:none;
+    border: none;
     font-family: 'Asul', sans-serif;
 }
 nav ul.primaryNav {
