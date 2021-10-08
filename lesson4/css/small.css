@@ -43,7 +43,7 @@ h5 {
 }
 p {
     color:#FFCF3D;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family:'Asul', sans-serif;
     text-align: center;
 }
@@ -101,7 +101,7 @@ nav ul {
     margin: 20px;
     color:#00F57A;
     background-color:#003E1F;
-    border: 1px dashed black;
+    border: 2px solid black;
 }
 footer {
     background-color:#153F65;
