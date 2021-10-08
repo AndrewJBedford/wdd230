@@ -8,12 +8,11 @@ header {
     background-color:#153F65;
     font-family:'Berkshire Swash', cursive;
     max-width: 100%;
-    padding: 1rem;
+    padding: 5px 0;
     display: flex;
 }
-img {
-    margin: auto;
-    width: auto;
+header img {
+    width: 80px;
     height: auto;
 }
 h1 {
