@@ -3,18 +3,10 @@ main {
     padding: 0.5rem;
     background-color: #C3CAD0;
 }
-body {
-    max-width: 960px;
-    font-size: 16px;
-    margin: auto;
-    font-family: 'Asul', sans-serif;
-    text-align: center;
-}
 header {
     text-align: center;
     background-color:#153F65;
     font-family:'Berkshire Swash', cursive;
-    margin: auto;
     max-width: 100%;
     padding: 1rem;
     display: flex;

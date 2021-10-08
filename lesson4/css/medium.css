@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35em) {
     header {
-        text-align: right;
+        text-align: center;
     }
     nav ul, nav ul.primaryNav {
         display: flex;
