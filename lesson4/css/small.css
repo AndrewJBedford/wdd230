@@ -11,24 +11,29 @@ body {
     text-align:center;
 }
 header {
-    text-align: center;
+    text-align: right;
     background-color:#153F65;
     font-family:'Berkshire Swash', cursive;
     margin: 0.5rem;
     padding-top: 0.5rem;
+    max-width: 100%;
+    padding: 1rem;
+    display: flex;
 }
 img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: auto;
+    height: auto;
 }
 h1 {
-    font-size: 80px;
+    font-size: 2rem;
     margin: auto;
     color:#FFCF3D;
+    font-family:'Berkshire Swash', cursive;
 }
-h2, h3, h4, h5 {
+h2, h3, h4, h5, .motto {
     font-family:'Berkshire Swash', cursive;
     color:#003E1F;
     text-align:center;
@@ -45,56 +50,41 @@ h4 {
 h5 {
     font-size: 1rem;
 }
+.motto {
+    font-size: 1.5rem;
+}
 p {
     color:#003E1F;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family:'Asul', sans-serif;
-    text-align:center;
-    margin-left:10%;
-    margin-right:10%;
-}
-.colors {
-    width: 100%;
-    max-width: 350px;
-    margin: auto;
-    text-align:center;
-}
-.colors th {
-    background-color:#4D4D4D;
-    color:whitesmoke;
-}
-.colors td {
-    width: 50%;
-    height: 3rem;
-    border: 5px solid black;
-}
-.primary {
-    background-color:#C3CAD0;
-}
-.secondary {
-    background-color:#153F65;
-}
-.accent1 {
-    background-color:#FFCF3D;
-}
-.accent2 {
-    background-color:#003E1F;
-}
-.accent3 {
-    background-color:#00F57A;
+    text-align:left;
 }
 a {
     color:#FFCF3D;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family:'Asul', sans-serif;
     text-decoration: none;    
 }
 nav {
 	background-color:#003E1F;
+    font-size: 1rem;
+    color:#00F57A;
 	text-align: center;
 	box-shadow:10px 5px 5px black;
+    max-width: 100%;
 }
-nav ul li a{
+nav button {
+    margin: 0.5rem 5%;
+    font-size: 1rem;
+    background-color:#003E1F;
+    color:#00F57A;
+    border:none;
+    font-family: 'Asul', sans-serif;
+}
+nav ul.primaryNav {
+    display:none;
+}
+nav ul li a {
     background-color: #003E1F;
     color:#FFCF3D;
 	display: block;
@@ -103,6 +93,7 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 0.95rem;
     font-family: 'Asul', sans-serif;
+    display:block;
 }
 nav a:link, nav a:visited {
     color:#00F57A;
@@ -117,10 +108,17 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
 }
+.contentbox, .contentbox hero, .contentbox forecast {
+    margin: 20px;
+    color:#00F57A;
+    background-color:#003E1F;
+    border: 1px dashed black;
+}
 footer {
     background-color:#153F65;
     color:#FFCF3D;
     padding: 1rem;
     text-align:center;
-    margin:0.5rem;
+    margin: 0.5rem;
+    max-width: 100%;
 }
