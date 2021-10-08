@@ -13,9 +13,6 @@
         display: flex;
         text-align: center;
     }
-    header img {
-        width: 100%;
-    }
     nav ul {
         display: flex;
     }
