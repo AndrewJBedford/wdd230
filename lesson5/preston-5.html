@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Town Page for Weather Project Preston Idaho">
+    <link rel="stylesheet" href="../lesson5/css/normalize.css">
+    <link rel="stylesheet" href="../lesson5/css/small.css"/>
+    <link rel="stylesheet" href="../lesson5/css/medium.css"/>
+    <link rel="stylesheet" href="../lesson5/css/large.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <script defer src="../lesson5/js/date.js"></script>
+    <title>Preston Town Page</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../lesson5/images/logo.png" alt="Site Logo">
+        <section>
+            <h1>Always Sunny in Preston</h1>
+            <q class="motto">Always Sunny in Preston, ain't no better place</q>
+        </section>
+    </header>
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; Menu </button> 
+            <ul id ="menu" class="primaryNav">
+                <li><a href="../index.html">Home</a></li>
+                <li class="active"><a href="../lesson5/preston-5.html"> Preston </a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="contentbox hero">Hero with Weather Summary</div>
+            <div class="contentbox forecast">5 Day Forecast</div>
+            <div class="contentbox ">Article</div>
+            <div class="contentbox">Contact Information</div>
+        </main>
+    <footer><p class="copyright"> &copy;Always Sunny in Preston | Attributions | Andrew Bedford</p>
+            <span id="currentDate"></span>
+</footer>
+<script src="../lesson5/js/menu.js"></script>
+</body>
+</html>
