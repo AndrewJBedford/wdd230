@@ -62,3 +62,12 @@ li {
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
 }
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	main {
+		width: 480px;
+	}
+}
