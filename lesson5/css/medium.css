@@ -42,14 +42,16 @@
     width:40%;
     position:absolute;
     }
-   .contactinfo{
+   .contact{
    margin: 10px;
    padding: 10px;
    justify-content: right;
+   display: grid;
+   text-align: center;
     }
-.social{
+    .social{
    display: flex;
-   align-items: right;
-   justify-content: right;
+   align-items:center;
+   justify-content: center;
 }
 }
