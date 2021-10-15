@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64em) {
     main {
-        margin: auto;
+        margin: 0 auto;
         max-width: 960px;
     }
     header {
@@ -19,12 +19,16 @@
     }
     nav ul {
         display: flex;
+        float: center;
     }
     nav ul li {
         flex: 1 1 100%;
     }
+    nav button{
+        display:none;
+    }
     footer{
-        margin: auto;
+        margin: 0 auto;
         max-width: 1050px;
     }
 }
