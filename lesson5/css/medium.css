@@ -12,8 +12,9 @@
         display: none;
     }
     .article-container {
+        padding-left: 8rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 2fr;
     }
     .article-title{
         text-align: center;
@@ -23,10 +24,32 @@
     }
     .articleimg{
     float: right;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
     }
+    .information{
+    position: relative;
+    text-align: center;  
+    }
+   .Prestonmap{
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-top: 30px;
+    height:60%;
+    width:40%;
+    position:absolute;
+    }
+   .contactinfo{
+   margin: 10px;
+   padding: 10px;
+   justify-content: right;
+    }
+.social{
+   display: flex;
+   align-items: right;
+   justify-content: right;
+}
 }
