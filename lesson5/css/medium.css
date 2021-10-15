@@ -11,13 +11,22 @@
     nav button {
         display: none;
     }
-    .article{
-        grid-column: 2;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .article-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .article-title{
+        text-align: center;
+    }
+    .article-content{
+        grid-column: 1;
+    }
+    .articleimg{
+    float: right;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
     }
 }
