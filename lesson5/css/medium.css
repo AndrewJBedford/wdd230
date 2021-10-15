@@ -15,6 +15,7 @@
         padding-left: 8rem;
         display: grid;
         grid-template-columns: 2fr 2fr;
+        border: 5px solid #000;
     }
     .article-title{
         text-align: center;
