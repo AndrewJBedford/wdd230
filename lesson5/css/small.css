@@ -24,6 +24,11 @@ img {
     max-height: 100%;
     display: flex;
 }
+.Prestonmap{
+	max-height: auto;
+    max-width: 20%;
+    padding-left: 150px;
+}
 h1 {
     font-size: 2rem;
     margin: auto;
