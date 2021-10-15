@@ -1,10 +1,7 @@
 @media only screen and (min-width: 64em) {
-    main, footer {
+    main {
         margin: auto;
         max-width: 960px;
-    }
-    nav {
-        max-width: 100%;
     }
     header {
         max-width: 100%;
@@ -14,10 +11,23 @@
         text-align: center;
         margin-top: auto;
     }
+    header img {
+        width: 100%;
+    }
+    h2 {
+        text-align: center;
+    } 
+    nav {
+        max-width: 100%;
+    }
     nav ul {
         display: flex;
     }
     nav ul li {
         flex: 1 1 100%;
+    }
+    footer{
+        margin: auto;
+        max-width: 1050px;
     }
 }
