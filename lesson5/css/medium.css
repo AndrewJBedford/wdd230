@@ -11,4 +11,13 @@
     nav button {
         display: none;
     }
+    .article{
+        grid-column: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
