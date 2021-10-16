@@ -181,7 +181,7 @@ nav ul {
 }
  .flex-col:hover {
     background-color:#00F57A;
-    color:#153F65;
+    color:whitesmoke;
     opacity: 0.75;
 }
 .col-head {
@@ -197,6 +197,7 @@ nav ul {
     padding: 0 10px 10px;
     font-size: 2rem;
     text-align: center;
+    color: whitesmoke;
 }
 .hot1, .hot2, .hot3, .hot4, .hot5 {
     display: block;
