@@ -150,6 +150,45 @@ nav ul {
     grid-column: 2;
     line-height: 50%; 
 }
+.flex { 
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #FFCF3D;
+ }
+ .flex-col {
+    border: 1px solid #333;
+    text-align: center;
+ }
+ .flex-col:hover {
+    background-color:#153F65 ;
+    color:#00F57A ;
+    opacity: rgba(0, 0, 0, 0.027);
+ }
+ .col-head {
+    display: block;
+    padding: 5px;
+    border: 1px solid #333;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #003E1F;
+    color: white;
+ }
+ .data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.hot1, .hot2, .hot3, .hot4, .hot5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    padding: 0.25rem;
+} 
 .article-container {
     display: block;
     margin: 10px auto;
