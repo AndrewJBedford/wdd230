@@ -35,7 +35,7 @@ img {
 }
 .Prestonmap{
 	max-height: auto;
-    max-width: 34%;
+    max-width: 33%;
     padding-left: 150px;
 }
 h1 {
@@ -140,20 +140,32 @@ nav ul {
 .hero-img {
     max-width: 100%;
     max-height: 100%;
+    margin: 25px auto;
+    position: relative;
 }
-.forecast {
-    margin: 20px;
-    color:#00F57A;
-    background-color:#003E1F;
+.weathersummary {
+	display:grid;
+    grid-template-columns: auto (1, 1fr);
+    position:absolute;
+    margin-left: 1%;
+    top: 400px;
+    margin-left: 50px;
+    background: radial-gradient(#eee, #153F65);
     border: 2px solid black;
+    padding: 1rem;
+    box-shadow: 0 0 50px rgb(55, 56, 58);
+    opacity: .9;
 }
 .name {
     grid-column: 1;
-    line-height: 50%;  
+    line-height: 100%;
+    text-align:center;  
 }
 .temp {
     grid-column: 2;
-    line-height: 50%; 
+    line-height: 100%;
+    margin-right: 100px;
+    text-align: center; 
 }
 .flex { 
     display: flex;
@@ -162,24 +174,24 @@ nav ul {
     border: 5px solid black;
     padding: 10px;
     background-color: #153F65;
- }
+}
  .flex-col {
     border: 2px solid black;
     text-align: center;
- }
+}
  .flex-col:hover {
     background-color:#00F57A;
     color:#153F65;
-    opacity: 0.70;
- }
- .col-head {
+    opacity: 0.75;
+}
+.col-head {
     display: block;
     padding: 10px;
     text-align: center;
     font-size: 1rem;
     background-color: #003E1F;
     color: whitesmoke;
- }
+}
 .data {
     display: block;
     padding: 0 10px 10px;

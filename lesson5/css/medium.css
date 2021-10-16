@@ -1,28 +1,42 @@
 @media only screen and (min-width: 36em) {
     header {
         text-align: center;
-    }
+}
     nav ul, nav ul.primaryNav {
         display: flex;
-    }
+}
     nav ul li {
         flex: 1 1 100%;
-    }
+}
     nav button {
         display: none;
-    }
+}
+    .hero-img {
+        margin: 10px auto;
+        position: relative;
+}
+   .weathersummary {
+        position: absolute;
+        margin-left: 5%;
+        left: 50 px;
+        background: radial-gradient(#eee, #153F65);
+        border: 2px solid black;
+        padding: 1.5rem;
+        box-shadow: 0 0 50px rgb(55, 56, 58);
+        opacity: .9;
+}
     .article-container {
         padding-left: 8rem;
         display: grid;
         grid-template-columns: 2fr 2fr;
         border: 5px solid #000;
-    }
+}
     .article-title{
         text-align: center;
-    }
+}
     .article-content{
         grid-column: 1;
-    }
+}
     .articleimg{
     float: right;
     margin-top: 15px;
@@ -30,19 +44,19 @@
     margin-right: 15px;
     margin-bottom: 15px;
     padding: 15px;
-    }
+}
    .Prestonmap{
     display:block;
     float: left;
     margin-top: 10px;
-    }
+}
    .contact{
    margin: 10px;
    padding: 10px;
    justify-content: right;
    text-align: center; 
    border: 5px solid black;
-    }
+}
     .social{
    display: flex;
    align-items:center;
