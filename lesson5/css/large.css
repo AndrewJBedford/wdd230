@@ -19,7 +19,6 @@
     }
     nav ul {
         display: flex;
-        float: center;
     }
     nav ul li {
         flex: 1 1 100%;

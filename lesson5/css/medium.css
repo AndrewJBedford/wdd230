@@ -18,7 +18,7 @@
    .weathersummary {
         position: absolute;
         margin-left: 5%;
-        left: 50 px;
+        left: 50px;
         background: radial-gradient(#eee, #153F65);
         border: 2px solid black;
         padding: 1.5rem;
