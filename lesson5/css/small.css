@@ -136,6 +136,11 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
 }
+.hero {
+	margin: 20px;
+    width: auto;
+    height: auto;
+}
 .hero-img {
     max-width: 100%;
     max-height: 100%;
@@ -143,16 +148,23 @@ nav ul {
 }
 .weathersummary {
 	display: grid;
-    grid-template-columns:auto (1, 1fr);
-    margin: 300px;
-    top: 10px;
-    left: 10px; 
+	position: absolute;
+    top: 20px;
+    left: 10px;
+    margin-right: 10px;
     padding: 0.5rem;
     background: radial-gradient(#eee, #153F65);
     border: 2px solid black;
-   
     box-shadow: 0 0 30px rgb(55, 56, 58);
     opacity: .9;
+}
+.weathersummary h2{
+	font-size: 20px;
+	text-align: center;
+}
+.weathersummary p{
+	font-size: 15px;
+	font-family:'Asul', sans-serif;
 }
 .name {
     grid-column: 1;

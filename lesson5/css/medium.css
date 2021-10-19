@@ -16,15 +16,19 @@
         margin: 10px auto;
         position: relative;
 }
+    
+    .hero-content {
+        position: relative;
+        margin: 10px auto;
+        width: auto;
+}
+
    .weathersummary{
         position: absolute;
-        margin-left: 50px;
-        left: 50px;
-        background: radial-gradient(#eee, #153F65);
-        border: 2px solid black;
-        padding: 0.5rem;
-        box-shadow: 0 0 50px rgb(55, 56, 58);
-        opacity: .9;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+       
 }
     .article-container {
         padding-left: 8rem;
