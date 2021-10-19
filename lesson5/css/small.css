@@ -153,9 +153,9 @@ nav ul {
     left: 10px;
     margin-right: 10px;
     padding: 0.5rem;
-    background: radial-gradient(#eee, #153F65);
+    background: radial-gradient(#153F65,#eee);
     border: 2px solid black;
-    box-shadow: 0 0 30px rgb(55, 56, 58);
+    box-shadow: 0 0 30px rgba(128, 128, 128, 0.582);
     opacity: .9;
 }
 .weathersummary h2{
