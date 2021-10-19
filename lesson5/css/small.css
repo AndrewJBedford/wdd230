@@ -157,14 +157,12 @@ nav ul {
     border: 2px solid black;
     box-shadow: 0 0 30px rgba(128, 128, 128, 0.582);
     opacity: .9;
-    text-align: center;
 }
 .weathersummary h2{
 	font-size: 20px;
 }
 .weathersummary p{
 	font-size: 15px;
-	font-family:'Asul', sans-serif;
 }
 .name {
     grid-column: 1;
