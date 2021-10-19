@@ -11,17 +11,18 @@
     nav button {
         display: none;
 }
+
     .hero-img {
         margin: 10px auto;
         position: relative;
 }
-   .weathersummary {
+   .weathersummary{
         position: absolute;
-        margin-left: 5%;
+        margin-left: 50px;
         left: 50px;
         background: radial-gradient(#eee, #153F65);
         border: 2px solid black;
-        padding: 1.5rem;
+        padding: 0.5rem;
         box-shadow: 0 0 50px rgb(55, 56, 58);
         opacity: .9;
 }
