@@ -112,7 +112,7 @@ nav button {
 nav ul.primaryNav {
     display:none;
 }
-nav ul.active{
+nav ul li.active{
     background-color:#00F57A;
     color:whitesmoke;
 }
