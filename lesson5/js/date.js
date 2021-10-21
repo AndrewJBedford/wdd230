@@ -5,3 +5,6 @@ let dayName = dayNames[d.getDay()];
 let monthName = months[d.getMonth()];
 let fullDate = dayName + ", " + d.getDate() + " " + monthName + " "  + d.getFullYear();
 document.getElementById("currentDate").textContent = fullDate;
+
+const copyrightyear = document.getElementById("copyrightyear");
+copyrightyear.textContent = new Date().getFullYear();
