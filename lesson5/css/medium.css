@@ -11,6 +11,10 @@
     nav button {
         display: none;
 }
+nav ul.active{
+    background-color:#00F57A;
+    color:whitesmoke;
+}
 
     .hero-img {
         margin: 10px auto;
@@ -22,13 +26,11 @@
         margin: 10px auto;
         width: auto;
 }
-
    .weathersummary{
         position: absolute;
         margin-top: 20px;
         margin-left: 20px;
-        margin-right: 20px;
-       
+        margin-right: 20px;  
 }
     .article-container {
         padding-left: 8rem;

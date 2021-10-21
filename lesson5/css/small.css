@@ -112,6 +112,10 @@ nav button {
 nav ul.primaryNav {
     display:none;
 }
+nav ul.active{
+    background-color:#00F57A;
+    color:whitesmoke;
+}
 nav ul li a {
     background-color: #003E1F;
     color:#FFCF3D;
@@ -148,6 +152,8 @@ nav ul {
 }
 .weathersummary {
 	display: grid;
+    grid-gap:;
+    line-height:;
 	position: absolute;
     top: 20px;
     left: 10px;
