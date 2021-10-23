@@ -113,10 +113,9 @@ nav ul.primaryNav {
     display:flex;
 }
 .active {
-    background-color:rgba(0, 0, 0, 0.301);
+    background-color:rgb(214, 128, 15);
 }
 nav ul li a {
-    background-color: #003E1F;
     color:#FFCF3D;
 	display: grid;
 	text-align: center;
