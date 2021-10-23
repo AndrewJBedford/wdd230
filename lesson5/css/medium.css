@@ -15,12 +15,10 @@
     background-color:#00F57A;
     color:whitesmoke;
 }
-
     .hero-img {
         margin: 10px auto;
         position: relative;
 }
-    
     .hero-content {
         position: relative;
         margin: 10px auto;
@@ -64,7 +62,7 @@
    text-align: center; 
    border: 5px solid black;
 }
-    .social{
+   .social{
    display: flex;
    align-items:center;
    justify-content: center;

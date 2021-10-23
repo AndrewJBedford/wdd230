@@ -110,11 +110,10 @@ nav button {
     font-family: 'Asul', sans-serif;
 }
 nav ul.primaryNav {
-    display:none;
+    display:flex;
 }
-nav ul li.active{
-    background-color:#00F57A;
-    color:whitesmoke;
+.active {
+    background-color:rgb(0 0 0 / 20%);
 }
 nav ul li a {
     background-color: #003E1F;
@@ -128,7 +127,7 @@ nav ul li a {
     display:block;
 }
 nav a:link, nav a:visited {
-    color:#00F57A;
+    color:whitesmoke;
 }
 nav a:hover {
     background-color:#FFCF3D;
