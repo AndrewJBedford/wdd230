@@ -11,10 +11,6 @@
     nav button {
         display: none;
 }
-    nav ul li.active{
-    background-color:#00F57A;
-    color:whitesmoke;
-}
     .hero-img {
         margin: 10px auto;
         position: relative;
