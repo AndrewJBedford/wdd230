@@ -37,7 +37,7 @@
         </nav>
         <main>
             <h2>Preston Idaho</h2>
-            <div class="hero-content">
+            <section class="hero-content">
                 <div class="hero">
                     <picture class="hero-picture">
                         <source srcset="images/wdd230_image_franklinMedium.jpeg"
@@ -46,18 +46,16 @@
                         <img class="hero-img" src="../lesson6/images/wdd230_image_franklinSmall.jpeg" alt="Preston mountain side">
                     </picture>
                 </div>    
-                    <section class="weathersummary">
+                    <div class="weathersummary">
                             <h2>Weather Summary</h2>
-                                <p class="name">Currently:</p>
-                                <p class="temp">Sunny</p>
-                                <p class="name">Temp:</p>
-                                <p class="temp">79 &deg;F</p>
-                                <p class="name">Wind Chill:</p>
-                                <p class="temp">88 &deg;F</p>
-                                <p class="name">Humidity:</p>
-                                <p class="temp">59%</p>
-                                <p class="name">Wind Speed:</p>
-                                <p class="temp">10 mph</p>
+                            <ul>
+                                <li>Currently:<span id="current">Sunny</span></li>
+                                <li>Temp:<span id="Temp">79 &deg;F</span></li>
+                                <li>Wind Chill:<span id="Wind-Chill"></span></li>
+                                <li>Humidity:<span id="Humidity">59%</span></li>
+                                <li>Wind Speed:<span id="Wind-Speed">10mph</span></li>
+                            </ul>
+                        </div>
                     </section>
             </div>                              
             <h3>5 Day Forecast</h3>
