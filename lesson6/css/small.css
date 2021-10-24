@@ -123,6 +123,7 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem;
     font-family: 'Asul', sans-serif;
+    list-style: none;
 }
 nav a:link, nav a:visited {
     color:whitesmoke;
@@ -131,17 +132,18 @@ nav a:hover {
     background-color:#FFCF3D;
     color:#153F65;
 }
-ul {
-    list-style-type: none;
-	margin: 0;
-	padding: 0;
-    text-align: center;
-}
 nav ul {
     list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+}
+ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color:#003E1F;
 }
 .hero {
 	margin: 20px;
@@ -160,7 +162,7 @@ nav ul {
     left: 10px;
     margin-right: 10px;
     padding: 0.5rem;
-    background: radial-gradient(#153F65,#eee);
+    background: radial-gradient(#eee, #153F65);
     border: 2px solid black;
     box-shadow: 0 0 30px rgba(128, 128, 128, 0.582);
     opacity: .9;
