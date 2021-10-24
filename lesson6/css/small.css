@@ -131,6 +131,12 @@ nav a:hover {
     background-color:#FFCF3D;
     color:#153F65;
 }
+ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
 nav ul {
     list-style-type: none;
 	margin: 0;
