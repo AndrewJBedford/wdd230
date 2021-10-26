@@ -110,7 +110,7 @@ nav button {
     font-family: 'Asul', sans-serif;
 }
 nav ul.primaryNav {
-    display:flex;
+    display:none;
 }
 .active {
     background-color:rgba(214, 128, 15, 0.486);
@@ -157,7 +157,6 @@ ul {
 }
 .weathersummary {
 	display: grid;
-	position: absolute;
     top: 20px;
     left: 10px;
     margin-right: 10px;
