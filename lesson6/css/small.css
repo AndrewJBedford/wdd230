@@ -224,27 +224,29 @@ ul {
     padding: 0.25rem;
 } 
 .article-container {
-    display: flex;
     margin: 10px auto;
     border: 1px solid #000;
     background-color:#153F65;
     padding: 15px;
 }
 .articleimg {
-    float: right;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
+	margin:auto;
 }
  *{
     box-sizing: border-box;
     padding: 0%;
     line-height: 1.1em;
 }
+   .Prestonmap{
+    display:none;
+}
 .contact{
 	background-color:#153F65; 
+}
+.social{
+    display: flex;
+   align-items:center;
+   justify-content: center;
 }
 footer {
     background-color:#153F65;
