@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston Town Page for Weather Project Preston Idaho">
+    <link rel="stylesheet" href="../lesson7/css/normalize.css">
+    <link rel="stylesheet" href="../lesson7/css/small.css"/>
+    <link rel="stylesheet" href="../lesson7/css/medium.css"/>
+    <link rel="stylesheet" href="../lesson7/css/large.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <script defer src="../lesson7/js/date.js"></script>
+    <title>Preston Town Page</title>
+</head>
+<body>
+    <aside id="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</aside>
+    <header>
+        <img class="logo" src="../lesson7/images/logo.png" alt="Site Logo">
+        <section>
+            <h1>Always Sunny in Preston</h1>
+            <q class="motto">Always Sunny in Preston, ain't no better place</q>
+        </section>
+    </header>
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; Menu </button> 
+            <ul id ="menu" class="primaryNav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../lesson7/preston-7.html"> Preston </a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="../lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <section class="hero-content">
+                <div class="hero">
+                    <picture class="hero-picture">
+                        <source srcset="images/wdd230_image_franklinMedium.jpeg"
+                            media="(min-width:36rem) and (max-width:64rem)">
+                        <source srcset="images/wdd230_image_franklinLarge.jpeg" media="(min-width:64rem)">
+                        <img class="hero-img" src="../lesson7/images/wdd230_image_franklinSmall.jpeg" alt="Preston mountain side">
+                    </picture>
+                </div>    
+                    <div class="weathersummary">
+                            <h2>Weather Summary</h2>
+                            <ul>
+                                <li>Currently:<span id="current">Sunny</span></li>
+                                <li>Temp:<span id="Temp">79 &deg;F</span></li>
+                                <li>Wind Chill:<span id="Wind-Chill"></span></li>
+                                <li>Humidity:<span id="Humidity"> 59%</span></li>
+                                <li>Wind Speed:<span id="Wind-Speed">10 mph</span></li>
+                            </ul>
+                        </div>
+                    </section>                           
+            <h3>5 Day Forecast</h3>
+            <div class="flex">
+              <div class="flex-col">
+                <span class="col-head">Mon</span>
+                <img class="hot1" src="../lesson7/images/hotsunicon.png" alt="sunny">
+                <span class="data">70 &deg;F</span>
+              </div>
+              <div class="flex-col">
+                <span class="col-head">Wed</span>
+                <img class="hot2" src="../lesson7/images/hotsunicon.png" alt="sunny">
+                <span class="data">75 &deg;F</span>
+              </div>
+              <div class="flex-col">
+                <span class="col-head">Fri</span>
+                <img class="hot3" src="../lesson7/images/hotsunicon.png" alt="sunny">
+                <span class="data">85 &deg;F</span>
+              </div>
+              <div class="flex-col">
+                <span class="col-head">Sat</span>
+                <img class="hot4" src="../lesson7/images/hotsunicon.png" alt="sunny">
+                <span class="data">90 &deg;F</span>
+              </div>
+              <div class="flex-col">
+                <span class="col-head">Sun</span>
+                <img class="hot5" src="../lesson7/images/hotsunicon.png" alt="sunny">
+                <span class="data">95 &deg;F</span>
+              </div>
+    </div>
+<div class="article-container">
+    <h4 class="article-title">Cow on road causes trailer loaded with cattle to tip over</h4>
+    <p class="article-content">
+        Dozens of black cows were rounded up from an overturned semi-trailer on Thursday, Oct. 25, at approximately 9:20 p.m. 
+        According to the Franklin County Sheriff’s report, the driver of the truck, Andrew Oudshoorn, Canada, was hauling 41 cows to Hyrum, Utah, for Van Raay Paskal Trucking out of Canada. 
+        He came upon a large cow belonging to Ivan Jorgenson, which was standing in the road. 
+        Oudshoorn was unable to avoid a collision and the steering locked up, tipping the tractor and trailer over, which then slid off the side of HWY 91. 
+        Oudshoorn was assisted out of the tractor through a broken window. The Franklin County Fire Department assisted with extrication of the remainder of the cattle and assisted in pushing them into a nearby fenced area. 
+        The local brand inspector and several other people assisted in locating the runaway cattle and placing them in a local pasture until they could be inspected and reloaded onto another trailer the next day. 
+        No cows had to be put down, at that point, as a result of the accident. Dattage Towing of Logan, Utah, recovered the tractor. 
+        Damages sustained in relation to the accident included those sustained by three vehicles assisting with gathering cattle, a local property owner’s fence, and Jorgenson’s cow being struck in open range.
+    </p>
+    <img class="articleimg" src="../lesson7/images/mountaincow.jpg" alt="Cow in the field with sunset">
+</div> 
+<div class="information">
+    <img class="Prestonmap" src="../lesson7/images/prestonmap.jpg" alt="Prestonmap">
+<div class="contact">
+    <h4>Always Sunny in Preston</h4>
+        <p> &#128205; 57 N 67 E Waterfall ln. Preston, ID 83263<br>
+            &#9742; (208)675-9578<br>
+            &#9993; alwayssunnyinpreston@gmail.com</p><br>
+                <div class ="social">
+                    <a href ="https://www.facebook.com">
+                    <img src="../lesson7/images/facebookicon.png" alt="Facebook Icon"></a>
+                    <a href ="https://www.instagram.com">
+                    <img src="../lesson7/images/instagramicon.png" alt="Instagram Icon"></a>
+                    <a href ="https://www.twitter.com">
+                    <img src="../lesson7/images/twittericon.png" alt="Twitter Icon"></a>
+                    <a href ="https://www.pinterest.com">
+                    <img src="../lesson7/images/pinteresticon.png" alt="Pinterest Icon"></a>
+                    <a href ="https://www.youtube.com">
+                    <img src="../lesson7/images/youtubeicon.png" alt="Youtube Icon"></a>
+                    <a href ="https://www.googleplus.com">
+                    <img src="../lesson7/images/googleplusicon.png" alt="GooglePlus Icon"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer><p>&copy;<span id="copyrightyear"></span> Always Sunny in Preston | Attributions | Andrew Bedford</p>
+            <span id="currentDate"></span>
+</footer>
+<script src="../lesson7/js/menu.js"></script>
+<script src="../lesson7/js/windchill.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="../lesson7/js/banner.js"></script>
+<script src="../lesson7/js/webfontload.js"></script>
+</body>
+</html>
