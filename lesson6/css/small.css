@@ -230,6 +230,10 @@ ul {
     background-color:#153F65;
     padding: 15px;
 }
+.articleimg {
+    width: 100%;
+
+}
  *{
     box-sizing: border-box;
     padding: 0%;
