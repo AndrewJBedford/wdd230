@@ -11,18 +11,17 @@ const preloadImage = (image) => {
     };
 };
 
-if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((items, observer) => {
-        items.forEach(item => {if(!item.isIntersecting) {
-        }});
-    }, imageOptions);
+const imgObserver = new IntersectionObserver ((items, imgObserver) => {
+    items.forEach(item => {
+        if(!item.isIntersecting) {
+            return;
+        } else {
+            preloadImage(item.target);
+            imgObserver.unobserve(item.target);
+        }
+    });
+}, options);
 
-    imagesLoading.forEach(img => {
+    imagesToLoad.forEach(img => {
         imageObserver.observe(img);
     });
-}
-else {
-  imagesToLoad.forEach(img => {
-  loadImages(img);
-});
-}
