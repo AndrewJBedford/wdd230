@@ -20,7 +20,7 @@
         margin: 10px auto;
         width: auto;
 }
-   .weathersummary{
+   .weathersummary {
         position: absolute;
         margin-top: 20px;
         margin-left: 20px;
@@ -32,42 +32,47 @@
         grid-template-columns: 2fr 2fr;
         border: 5px solid #000;
 }
-    .article-title{
+    .article-title {
         text-align: center;
 }
-    .article-content{
+    .article-content {
         grid-column: 1;
 }
-    .articleimg{
-    float: right;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
+    .articleimg {
+        float: right;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        padding: 15px;
 }
-   .Prestonmap{
-    display:block;
-    float: left;
-    margin-top: 10px;
+   .Prestonmap {
+        display:block;
+        float: left;
+        margin-top: 10px;
 }
-   .contact{
-   margin: 10px;
-   padding: 10px;
-   justify-content: right;
-   text-align: center; 
-   border: 5px solid black;
+   .contact {
+        margin: 10px;
+        padding: 10px;
+        justify-content: right;
+        text-align: center; 
+        border: 5px solid black;
 }
-   .social{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    }    
-    .gallery{
-        margin: auto;
-        width: auto;
-        height: auto;
-    }
+   .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+    img {
+        max-width: 65%;
+        max-height: 100%;
+        display: flex;
+}
+    .gallery {
+        width: 250px; 
+        height: auto; 
+        margin: .5rem;
+}
     .gallery-view {
         margin: auto;
         max-width: auto; 

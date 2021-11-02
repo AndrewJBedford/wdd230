@@ -23,15 +23,14 @@
     nav ul li {
         flex: 1 1 100%;
     }
-    nav button{
+    nav button {
         display:none;
     }
-    footer{
+    footer {
         margin: 0 auto;
         max-width: 1050px;
     }
-    .gallery-view{
-         opacity: .5;
+    .gallery-view {
          grid-template-columns: 1fr 1fr 1fr;
     }
 }

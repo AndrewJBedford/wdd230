@@ -32,10 +32,12 @@ header img {
 	max-width: 65%;
     max-height: 100%;
     display: flex;
+    margin: auto;
 }
 .Prestonmap{
     max-width: 33%;
     padding-left: 150px;
+    display: none;
 }
 h1 {
     font-size: 2rem;
@@ -229,21 +231,15 @@ ul {
     background-color:#153F65;
     padding: 15px;
 }
-.articleimg {
-	margin:auto;
-}
  *{
     box-sizing: border-box;
     padding: 0%;
     line-height: 1.1em;
 }
-   .Prestonmap{
-    display:none;
-}
-.contact{
+.contact {
 	background-color:#153F65; 
 }
-.social{
+.social {
     display: flex;
    align-items:center;
    justify-content: center;
@@ -256,22 +252,22 @@ footer {
     margin: 0.5rem;
     max-width: 100%;
 }
-.gallery{
+.gallery {
     margin:auto;
     width: auto;
     height: auto;
 }
 img { 
-    width: 250px; 
-    height: auto; 
-    margin: .5rem;
+    max-width: 65%;
+    max-height: 100%;
+    display: flex;
 }
 .figure {
     margin: auto;
 }
 figcaption {
-    display:grid;
+    display: grid;
     padding: 1rem;
-    font-size: 5px;
-    text-align:center;
+    font-size: 12px;
+    text-align: center;
 }
