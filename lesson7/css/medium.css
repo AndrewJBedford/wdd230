@@ -60,7 +60,18 @@
 }
    .social{
    display: flex;
-   align-items:center;
+   align-items: center;
    justify-content: center;
+    }    
+    .gallery{
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    .gallery-view {
+        margin: auto;
+        max-width: auto; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
     }
 }

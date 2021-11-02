@@ -30,4 +30,8 @@
         margin: 0 auto;
         max-width: 1050px;
     }
+    .gallery-view{
+         opacity: .5;
+         grid-template-columns: 1fr 1fr 1fr;
+    }
 }
