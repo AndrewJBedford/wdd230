@@ -1,5 +1,5 @@
 img[data-src] {
-    filter: blur(1em)
+    filter: blur(1em);
 }
 img {
     filter: blur(0em);
