@@ -267,7 +267,7 @@ img {
 }
 figcaption {
     display: grid;
-    padding: 1rem;
-    font-size: 12px;
+    font-size: smaller;
     text-align: center;
+    padding-right: 3.5rem;
 }
