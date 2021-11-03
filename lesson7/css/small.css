@@ -253,8 +253,7 @@ footer {
     max-width: 100%;
 }
 .gallery {
-    filter: blur(0em);
-    transition: filter 1.5s;
+    filter: blur(1em);
     display: block;
     margin: auto;
 }
@@ -264,7 +263,8 @@ img {
     display: flex;
 }
 img[data-src] {
-    filter: blur(1em);
+    filter: blur(0em);
+    transition: filter 1s;
 }
 .figure {
     margin: auto;
