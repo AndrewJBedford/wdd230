@@ -256,11 +256,16 @@ footer {
     margin:auto;
     width: auto;
     height: auto;
+    filter: blur(0em);
+    transition: filter 1.5s;
 }
 img { 
     max-width: 65%;
     max-height: 100%;
     display: flex;
+}
+img[data-src] {
+    filter: blur(1em)
 }
 .figure {
     margin: auto;
