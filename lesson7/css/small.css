@@ -253,8 +253,6 @@ footer {
     max-width: 100%;
 }
 .gallery {
-   filter: blur(0em);
-    transition: filter 1.5s;
     display: block;
     margin: auto;
 }
