@@ -40,3 +40,9 @@ table tfoot {
     font-size: 13px;
     padding: 9px 5px;
 }
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color:#628ca6;
+    font-size: .85rem;
+  }
