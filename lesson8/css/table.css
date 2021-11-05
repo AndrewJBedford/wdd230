@@ -22,7 +22,7 @@ thead tr{
 }
 tbody th {
     background-color: #628ca6;
-    color: #ffffff;
+    color: white;
     font-size: 16px;
 }
 tbody tr {
@@ -33,7 +33,7 @@ tbody tr:nth-child(even) {
 }
 .sales-goal {
     background-color: #628ca6;
-    color: #ffffff;
+    color: white;
 }
 table tfoot {
     background-color: #7fb9c2;
