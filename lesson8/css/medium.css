@@ -71,8 +71,7 @@
         margin: .5rem;
 }
     .gallery-view {
-        margin: auto;
-        max-width: auto; 
+        margin: auto; 
         display: grid; 
         grid-template-columns: 1fr 1fr;
     }
