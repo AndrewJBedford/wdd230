@@ -277,20 +277,20 @@ form {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
-    background-color: blue;
-    max-width: 24rem;
+    background-color: whitesmoke;
+    max-width: 25rem;
 }
 form fieldset {
     margin: 1rem;
-    border: 1px solid blue;
+    border: 1px solid #003E1F;
     border-radius: 10px;
     padding: 1rem;
-    color:blue;
+    color:#003E1F;
     background-color: whitesmoke; 
 }
 form legend {
     font-size: 1.5rem;
-    color: blue;
+    color: #153F65;
     margin: auto;
     padding: .5rem;
 }
@@ -298,8 +298,18 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    Color: black;
+    color: grey;
     font-size: 1.1rem;
+}
+form label input, 
+form label select {
+    display: block;
+    font-size: 16px;
+    border-radius: 1px;
+    padding: .5rem;
+    color:#153F65;
+    max-width: 20rem;
+    background-color: white;
 }
 form label.top input,
 form label.top select,
@@ -307,10 +317,10 @@ textarea {
     display: block;
     font-size: 1rem;
     border: solid 1px;
-    padding: .75rem;
-    color: blue;
+    padding: .5rem;
+    color:#003E1F ;
     width:auto;
-    background-color: whitesmoke;
+    background-color: white;
 }
 textarea {
     display: block;
@@ -330,8 +340,7 @@ form label{
     color: black;
 }
 .severe{
-	display: flex;
-	align-items: center;
+	display:grid;
 }
 input[type="radio"] {
     height: 25px;
@@ -339,21 +348,14 @@ input[type="radio"] {
     display: inline-block;
     vertical-align: middle;
 }
-input[type="radio"]:checked {  
-    border: double whitesmoke;
-    background-color: blue;
-}
-input[type="radio"]:focus {
-    outline: none;
-}
 label[for="comments"]{
-    margin: 0 auto;
+    margin: auto;
 }
 form input.submitBtn {
     margin: auto;
     border: none;
     display:flex;
-    background-color:grey;
-    color:black;
+    background-color:#153F65;
+    color:whitesmoke;
     padding: .65rem;
 }
