@@ -36,4 +36,7 @@
     .gallery:hover {
         box-shadow: 0 0 50px rgb(8, 228, 19);
     }
+    form label.sbs {
+        padding: .4rem 0;
+    }
 }

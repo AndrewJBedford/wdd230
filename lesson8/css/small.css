@@ -271,3 +271,8 @@ figcaption {
     text-align: center;
     padding-right: 3.5rem;
 }
+
+.severe {
+	display: flex;
+	align-items: center;
+}
