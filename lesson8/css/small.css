@@ -359,3 +359,8 @@ form input.submitBtn {
     color:whitesmoke;
     padding: .65rem;
 }
+.submit{
+    background-color:whitesmoke;
+    padding: 1rem;
+    text-align: center;
+    }    
