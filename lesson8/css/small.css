@@ -319,7 +319,7 @@ textarea {
     border: solid 1px;
     padding: .5rem;
     color:#003E1F ;
-    width:auto;
+    width:100%;
     background-color: white;
 }
 textarea {
