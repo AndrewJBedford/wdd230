@@ -67,9 +67,12 @@
                     <option value="Thunderstorm">Thunderstorm</option>
                     <option value="Tornado">Tornado</option>
                 </datalist>
-		<label class="severe" for="level"> Storm Severity Level: &nbsp;&nbsp;&nbsp;
-			<input type="range" id="severity" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-			<span id="ratingvalue">10</span>
+            <div>Storm Severity Level:</div>
+		<label class="severe" for="level">
+            <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" 
+            oninput="adjustRating(this.value)" 
+            onchange="adjustRating(this.value)">
+			<span id="ratingvalue">5</span>
 		    </label>
 		<datalist id="tickmarks">
 			<option value="0">
@@ -95,8 +98,10 @@
                 <label>Danger Zone?</label>
                     <label><input type="radio" name="inDanger" value="yes"> Yes</label>
                     <label><input type="radio" name="inDanger" value="maybe"> Maybe</label>
-                    <label><input type="radio" name="inDanger" value="no"> No</label> 
-               <legend> Additional information</legend> 
+                    <label><input type="radio" name="inDanger" value="no"> No</label>
+                    </fieldset>
+                    <fieldset>
+               <legend>Additional information</legend> 
                 <label>Comments:
                     <textarea name="comments" placeholder="Trees fallen over on to road..." ></textarea>
                     </label>
