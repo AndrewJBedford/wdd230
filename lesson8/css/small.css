@@ -339,7 +339,7 @@ form label{
     padding: .75rem 0;
     color: black;
 }
-.severe{
+.level{
 	display:grid;
 }
 input[type="radio"] {
