@@ -41,29 +41,28 @@
     }
     .town-data {
         display: flex;
-        align-items: center;
     }
     div.town-data {
-        padding: 0 10px 0;
-        margin: 20px auto;
-        max-width: 400px;
+        margin: auto;
+        width: auto;
         flex-direction: column;
-        justify-content: left;
-        min-height: 500px
     }
     .town-data img {
-        margin: 6px 6px 0;
+        margin: auto;
         width: auto;
+        height: auto;
     }
     .town-data h3 {
-        padding: 10px 0;
-        margin-bottom: auto;
+        padding: auto;
+        margin: auto;
+        width: auto;
+        height: auto;
     }    
-    div.town-data:nth-of-type(even) {
+    div.town-data:nth-of-type(odd) {
         flex-direction: column;
     }    
     div.town-data:nth-of-type(even) img {
-        margin: auto 0;        
+        margin: auto;        
         width: auto;
         height: auto;
     }

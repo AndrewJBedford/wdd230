@@ -29,10 +29,10 @@ function buildTownStructure(containerClass, townObject){
     city.appendChild(cityImage);
     let cityInfo = document.createElement('div');
     city.appendChild(cityInfo);
-    let cityName = document.createElement('h3');
+    let cityName = document.createElement('h4');
     cityName.textContent = townObject.name;
     cityInfo.appendChild(cityName);
-    let cityMotto = document.createElement('h4');
+    let cityMotto = document.createElement('h5');
     cityMotto.textContent = townObject.motto;
     cityInfo.appendChild(cityMotto);
     let cityFounded = document.createElement('p');
@@ -101,8 +101,8 @@ fetch(requestURL)
       buildTownStructure(".town-data",townArray["fishHaven"]);
       let eventSection = document.querySelector(".events");
       let prestonEvents = document.createElement("div");
-      prestonEvents.appendChild(document.createElement("h3"));
-      prestonEvents.querySelector("h3").textContent = "Preston";
+      prestonEvents.appendChild(document.createElement("h4"));
+      prestonEvents.querySelector("h4").textContent = "Preston";
       townArray["preston"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
@@ -111,8 +111,8 @@ fetch(requestURL)
 
       eventSection.appendChild(prestonEvents);
       let sodaSpringsEvents = document.createElement("div");
-      sodaSpringsEvents.appendChild(document.createElement("h3"));
-      sodaSpringsEvents.querySelector("h3").textContent = "Soda Spring";
+      sodaSpringsEvents.appendChild(document.createElement("h4"));
+      sodaSpringsEvents.querySelector("h4").textContent = "Soda Spring";
       townArray["sodaSprings"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
@@ -121,8 +121,8 @@ fetch(requestURL)
 
       eventSection.appendChild(sodaSpringsEvents);      
       let fishHavenEvents = document.createElement("div");
-      fishHavenEvents.appendChild(document.createElement("h3"));
-      fishHavenEvents.querySelector("h3").textContent = "Fish Haven";
+      fishHavenEvents.appendChild(document.createElement("h4"));
+      fishHavenEvents.querySelector("h4").textContent = "Fish Haven";
       townArray["fishHaven"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;

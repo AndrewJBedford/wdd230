@@ -53,7 +53,7 @@
         padding: 10px;
         justify-content: right;
         text-align: center; 
-        border: 5px solid black;
+        border: 5px solid #000;
 }
    .social {
         display: flex;
@@ -75,18 +75,18 @@
         display: grid; 
         grid-template-columns: 1fr 1fr;
     }
-    div.town-data {
-        display: flex;
-         padding: 0 10px;
-         padding-left: 0;
-         max-width: 1500px;
+    .town-data {
+         display: flex;
+         padding:auto 0;
+         width: auto;
          text-align: center;
+         background-color:#153F65;
+         border: 5px solid #000;
      }
-    .town-data img {
-         border-radius: 8px;
-         width: 50%;
+    div.town-data img {
+         width: auto;
          height: auto;
-         margin: 6px auto 6px 3px;
+         margin: auto;
      }
      div.town-data:nth-of-type(even) {
          flex-direction: row-reverse;
