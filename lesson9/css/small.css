@@ -392,18 +392,13 @@ form input.submitBtn{
      div.town-data:nth-child(even) img {
          margin: 6px 3px 6px auto;
 } 
-div.events{
-    margin: auto;
-    width:auto;
-    height:auto;
-}
+
 .events{
-    margin:auto;
-    width: auto;
-    height:auto;
-}
-div.events{
-    margin: auto;
-    width: auto;
-    height: auto;
+    background-color:#153F65;
+    color:#FFCF3D;
+    padding: 1rem;
+    text-align:center;
+    margin: 0.5rem;
+    max-width: 100%;
+    border: 5px solid #000;
 }
