@@ -66,9 +66,14 @@ fetch(requestURL)
             townArray["sodaSprings"]= sodaSprings;
         }   
       }
-      buildTownStructure(".town-data",townArray["preston"]);
-      buildTownStructure(".town-data",townArray["sodaSprings"]);
-      buildTownStructure(".town-data",townArray["fishHaven"]);
+      var townName = "";
+if (document.getElementById("preston")) {
+    townName = "Preston";
+} else if (document.getElementById("sodasprings")) {
+    townName = "Soda Springs";
+} else if (document.getElementById("fishhaven")) {
+    townName = "Fish Haven";
+}
       let eventSection = document.querySelector(".events");
       let prestonEvents = document.createElement("div");
       prestonEvents.appendChild(document.createElement("h4"));
