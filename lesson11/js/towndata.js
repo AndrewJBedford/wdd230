@@ -43,7 +43,7 @@ fetch(requestURL)
                                 towns[i].name, towns[i].photo,
                                 towns[i].yearFounded,                                  
                                 )
-            townArray["fishHaven"]= fishHaven;
+            townArray["fishhaven"]= fishHaven;
         } else if(towns[i].name == "Preston") {
             eventList = getList(towns[i].events);
             var preston = new Town(
@@ -88,7 +88,7 @@ if (document.getElementById("preston")) {
       let sodaSpringsEvents = document.createElement("div");
       sodaSpringsEvents.appendChild(document.createElement("h4"));
       sodaSpringsEvents.querySelector("h4").textContent = "Soda Spring";
-      townArray["sodaSprings"].events.forEach(event => {
+      townArray["sodasprings"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
         sodaSpringsEvents.appendChild(eventContent);
@@ -98,7 +98,7 @@ if (document.getElementById("preston")) {
       let fishHavenEvents = document.createElement("div");
       fishHavenEvents.appendChild(document.createElement("h4"));
       fishHavenEvents.querySelector("h4").textContent = "Fish Haven";
-      townArray["fishHaven"].events.forEach(event => {
+      townArray["fishhaven"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
         fishHavenEvents.appendChild(eventContent);
