@@ -84,7 +84,7 @@ if (document.getElementById("preston")) {
         prestonEvents.appendChild(eventContent);
       });
 
-      let eventSection = document.querySelector(".events");
+      eventSection.appendChild(prestonevents);
       let sodaSpringsEvents = document.createElement("div");
       sodaSpringsEvents.appendChild(document.createElement("h4"));
       sodaSpringsEvents.querySelector("h4").textContent = "Soda Spring";
@@ -94,7 +94,7 @@ if (document.getElementById("preston")) {
         sodaSpringsEvents.appendChild(eventContent);
       });      
 
-      let eventSection = document.querySelector(".events");      
+      eventSection.appendChild(sodaspringsevents);      
       let fishHavenEvents = document.createElement("div");
       fishHavenEvents.appendChild(document.createElement("h4"));
       fishHavenEvents.querySelector("h4").textContent = "Fish Haven";
@@ -103,5 +103,5 @@ if (document.getElementById("preston")) {
         eventContent.textContent = event;
         fishHavenEvents.appendChild(eventContent);
       });           
-      eventSection.appendChild(fishHavenEvents);
+      eventSection.appendChild(fishhavenevents);
   });
