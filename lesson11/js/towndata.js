@@ -30,7 +30,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    let towns = jsonObject['towns'];      
+    const towns = jsonObject['towns'];      
     var townArray = {};
     var eventList = [];
     for (let i = 0; i < towns.length; i++ ) {
