@@ -60,7 +60,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    const towns = jsonObject['towns'];      
+    let towns = jsonObject['towns'];      
     var townArray = {};
     var eventList = [];
     for (let i = 0; i < towns.length; i++ ) {
