@@ -21,7 +21,7 @@ function buildTownStructure(containerClass, townObject){
     container = document.querySelector(containerClass);
     townSection.classList.add('townBanner');
     container.appendChild(townSection);
-    queryCity = `${containerClass} > div:nth-child`;
+    queryCity = `${containerClass} > div:last-of-type`;
     let city = document.querySelector(queryCity);
     let cityImage = document.createElement('img');
     cityImage.src = `images/${townObject.photo}`
