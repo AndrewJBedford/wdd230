@@ -54,7 +54,7 @@ function getList(townEvents) {
     return events;
 }
 
-var siteTowns = [];
+var townName = "";
 fetch(requestURL)
   .then(function (response) {
     return response.json();

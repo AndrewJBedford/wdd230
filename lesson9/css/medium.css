@@ -75,24 +75,26 @@
         display: grid; 
         grid-template-columns: 1fr 1fr;
     }
-    .town-data {
-         display: flex;
-         padding:auto 0;
+    .town-data > div{
+         margin:auto;
          width: auto;
+         height: auto;
+         display: grid;
          text-align: center;
          background-color:#153F65;
          border: 5px solid #000;
      }
     div.town-data img {
+         padding-top: 5px;
          width: auto;
          height: auto;
          margin: auto;
      }
-     div.town-data:nth-of-type(even) {
+     div.town-data:nth-child(even) {
          flex-direction: row-reverse;
          padding-right: 0;
      }
-     div.town-data:nth-of-type(even) img {
+     div.town-data:nth-child(even) img {
          margin: 6px 3px 6px auto;
      } 
 }

@@ -39,18 +39,11 @@
     form label.sbs {
         padding: .4rem;
     }
-    .town-data {
+    .town-data{
+        padding-top: 5px;
         display: flex;
-    }
-    div.town-data {
-        margin: auto;
-        width: auto;
-        flex-direction: column;
-    }
-    .town-data img {
-        margin: auto;
-        width: auto;
-        height: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
     }
     .town-data h3 {
         padding: auto;
@@ -58,12 +51,11 @@
         width: auto;
         height: auto;
     }    
-    div.town-data:nth-of-type(odd) {
-        flex-direction: column;
-    }    
-    div.town-data:nth-of-type(even) img {
+    div.town-data:nth-child(even) img {
         margin: auto;        
         width: auto;
         height: auto;
+        grid-column: 1;
+        grid-row: span 1;
     }
 }
