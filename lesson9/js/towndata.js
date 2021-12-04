@@ -1,5 +1,5 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-fetch(requestURL)
+const requestURL = 'towndata.json';
+var townArray = [];
 function Town(rainfall,
     population, events,
     motto, name,
