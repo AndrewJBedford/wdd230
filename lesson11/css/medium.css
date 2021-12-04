@@ -11,6 +11,8 @@
     .hero-img {
         margin: 10px auto;
         position: relative;
+        max-width: 960px;
+        height: 250px;
 }
     .hero-content {
         position: relative;

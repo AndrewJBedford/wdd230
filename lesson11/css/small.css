@@ -364,7 +364,7 @@ form input.submitBtn{
     padding: 1rem;
     text-align: center;
 }
-  .town-data > div{
+.town-data > div{
          margin:auto;
          width: auto;
          height: auto;
@@ -372,24 +372,24 @@ form input.submitBtn{
          background-color:#153F65;
          border: 5px solid #000;
 }
-    div.town-data{
+div.town-data{
     	text-align: center;
         padding-top: 5px;
         margin: auto;
         width: auto;
 }
-    div.town-data img {
+div.town-data img {
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
         width: auto;
         height: auto;
 }
-     div.town-data:nth-child(even) {
+div.town-data:nth-child(even) {
          flex-direction: row-reverse;
          padding-right: 0;
 }
-     div.town-data:nth-child(even) img {
+div.town-data:nth-child(even) img {
          margin: 6px 3px 6px auto;
 } 
 
