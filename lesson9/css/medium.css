@@ -75,4 +75,24 @@
         display: grid; 
         grid-template-columns: 1fr 1fr;
     }
+    div.town-data {
+        display: flex;
+         padding: 0 10px;
+         padding-left: 0;
+         max-width: 1500px;
+         text-align: center;
+     }
+    .town-data img {
+         border-radius: 8px;
+         width: 50%;
+         height: auto;
+         margin: 6px auto 6px 3px;
+     }
+     div.town-data:nth-of-type(even) {
+         flex-direction: row-reverse;
+         padding-right: 0;
+     }
+     div.town-data:nth-of-type(even) img {
+         margin: 6px 3px 6px auto;
+     } 
 }
