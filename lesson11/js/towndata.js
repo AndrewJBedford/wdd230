@@ -43,7 +43,7 @@ fetch(requestURL)
                                 towns[i].name, towns[i].photo,
                                 towns[i].yearFounded,                                  
                                 )
-            townArray["fishhaven"]= fishhaven;
+            townArray["fishHaven"]= fishHaven;
         } else if(towns[i].name == "Preston") {
             eventList = getList(towns[i].events);
             var preston = new Town(
@@ -63,15 +63,15 @@ fetch(requestURL)
                                 towns[i].motto, towns[i].name,                      
                                 towns[i].photo, towns[i].yearFounded,                                  
                                 )            
-            townArray["sodasprings"]= sodasprings;
+            townArray["sodaSprings"]= sodaSprings;
         }   
       }
       var townName = "";
 if (document.getElementById("preston")) {
     townName = "Preston";
-} else if (document.getElementById("sodasprings")) {
+} else if (document.getElementById("sodaSprings")) {
     townName = "Soda Springs";
-} else if (document.getElementById("fishhaven")) {
+} else if (document.getElementById("fishHaven")) {
     townName = "Fish Haven";
 }
       let eventSection = document.querySelector(".events");
@@ -88,7 +88,7 @@ if (document.getElementById("preston")) {
       let sodaSpringsEvents = document.createElement("div");
       sodaSpringsEvents.appendChild(document.createElement("h4"));
       sodaSpringsEvents.querySelector("h4").textContent = "Soda Spring";
-      townArray["sodasprings"].events.forEach(event => {
+      townArray["sodaSprings"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
         sodaSpringsEvents.appendChild(eventContent);
@@ -98,7 +98,7 @@ if (document.getElementById("preston")) {
       let fishHavenEvents = document.createElement("div");
       fishHavenEvents.appendChild(document.createElement("h4"));
       fishHavenEvents.querySelector("h4").textContent = "Fish Haven";
-      townArray["fishhaven"].events.forEach(event => {
+      townArray["fishHaven"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
         fishHavenEvents.appendChild(eventContent);
