@@ -21,7 +21,7 @@ function buildTownStructure(containerClass, townObject){
     container = document.querySelector(containerClass);
     townSection.classList.add('townBanner');
     container.appendChild(townSection);
-    queryCity = `${containerClass} > div:last-of-type`;
+    queryCity = `${containerClass} > div:nth-child`;
     let city = document.querySelector(queryCity);
     let cityImage = document.createElement('img');
     cityImage.src = `images/${townObject.photo}`
@@ -60,7 +60,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    const towns = jsonObject['towns'];      
+    let towns = jsonObject['towns'];      
     var townArray = {};
     var eventList = [];
     for (let i = 0; i < towns.length; i++ ) {

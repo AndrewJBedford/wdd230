@@ -16,36 +16,6 @@ function Town(rainfall,
     return this;
 }
 
-function buildTownStructure(containerClass, townObject){
-    let townSection = document.createElement('div');
-    container = document.querySelector(containerClass);
-    townSection.classList.add('townBanner');
-    container.appendChild(townSection);
-    queryCity = `${containerClass} > div:nth-child`;
-    let city = document.querySelector(queryCity);
-    let cityImage = document.createElement('img');
-    cityImage.src = `images/${townObject.photo}`
-    cityImage.alt = `photo of ${townObject.name}`
-    city.appendChild(cityImage);
-    let cityInfo = document.createElement('div');
-    city.appendChild(cityInfo);
-    let cityName = document.createElement('h4');
-    cityName.textContent = townObject.name;
-    cityInfo.appendChild(cityName);
-    let cityMotto = document.createElement('h5');
-    cityMotto.textContent = townObject.motto;
-    cityInfo.appendChild(cityMotto);
-    let cityFounded = document.createElement('p');
-    cityFounded.textContent = `Year founded: ${townObject.name}`;
-    cityInfo.appendChild(cityFounded);
-    let cityPopulation = document.createElement('p');
-    cityPopulation.textContent = `Population: ${townObject.population}`;
-    cityInfo.appendChild(cityPopulation);
-    let cityRainfall = document.createElement('p');
-    cityRainfall.textContent = `Annual rainfall: ${townObject.averageRainfall}"`;
-    cityInfo.appendChild(cityRainfall);    
-}
-
 function getList(townEvents) {
     var events = [];
     townEvents.forEach(element => {
