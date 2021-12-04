@@ -366,15 +366,16 @@ form input.submitBtn{
     }
 .town-data{
     display:flex;
+    align-items:center;
 } 
-.town-data section{
+div.town-data section{
     padding:1rem;
     margin: auto;
     width: auto;
     color:#003E1F;
     text-align: center;
 }
-.town-data img{
+div.town-data img{
     margin: auto;
     width: auto;
     height:auto;
