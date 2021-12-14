@@ -1,7 +1,7 @@
 main {
     margin: 0.5em;
     padding: 0.5rem;
-    background-color: #C3CAD0;
+    background-color: #B7FDFE;
 }
 body {
     max-width: 960px;
@@ -12,8 +12,8 @@ body {
 }
 header {
     text-align: center;
-    background-color:#153F65;
-    font-family:'Berkshire Swash', cursive;
+    background-color:#A80874;
+    font-family:'Arimo', sans-serif;
     margin: 0.5rem;
     padding-top: 0.5rem;
 }
@@ -26,11 +26,11 @@ img {
 h1 {
     font-size: 80px;
     margin: auto;
-    color:#FFCF3D;
+    color:#5EF38C;
 }
 h2, h3, h4, h5 {
-    font-family:'Berkshire Swash', cursive;
-    color:#003E1F;
+    font-family:'Arimo', sans-serif;
+    color:#493B2A;
     text-align:center;
 }
 h2 {
@@ -46,7 +46,7 @@ h5 {
     font-size: 1rem;
 }
 p {
-    color:#003E1F;
+    color:#493B2A;
     font-size: 20px;
     font-family:'Asul', sans-serif;
     text-align:center;
@@ -69,34 +69,34 @@ p {
     border: 5px solid black;
 }
 .primary {
-    background-color:#C3CAD0;
+    background-color:#B7FDFE;
 }
 .secondary {
-    background-color:#153F65;
+    background-color:#493B2A;
 }
 .accent1 {
-    background-color:#FFCF3D;
+    background-color:#5EF38C;
 }
 .accent2 {
-    background-color:#003E1F;
+    background-color:#2B9720;
 }
 .accent3 {
-    background-color:#00F57A;
+    background-color:#A80874;
 }
 a {
-    color:#FFCF3D;
+    color:#5EF38C;
     font-size: 1rem;
     font-family:'Asul', sans-serif;
     text-decoration: none;    
 }
 nav {
-	background-color:#003E1F;
+	background-color:#493B2A;
 	text-align: center;
 	box-shadow:10px 5px 5px black;
 }
 nav ul li a{
-    background-color: #003E1F;
-    color:#FFCF3D;
+    background-color: #493B2A;
+    color:#5EF38C;
 	display: block;
 	text-align: center;
 	padding: 0.75rem;
@@ -105,11 +105,11 @@ nav ul li a{
     font-family: 'Asul', sans-serif;
 }
 nav a:link, nav a:visited {
-    color:#00F57A;
+    color:#2B9720;
 }
 nav a:hover {
-    background-color:#FFCF3D;
-    color:#153F65;
+    background-color:#5EF38C;
+    color:#493B2A;
 }
 nav ul {
     list-style-type: none;
@@ -118,8 +118,8 @@ nav ul {
 	overflow: hidden;
 }
 footer {
-    background-color:#153F65;
-    color:#FFCF3D;
+    background-color:#493B2A;
+    color:#5EF38C;
     padding: 1rem;
     text-align:center;
     margin:0.5rem;
