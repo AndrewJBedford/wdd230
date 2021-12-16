@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/AndrewJBedford/wdd230/master/directory/business-cards.json';
+const requestURL = 'https://github.com/AndrewJBedford/wdd230/blob/master/lesson13/directory/business-cards.json';
 
 fetch(requestURL)
   .then(function (response) {
