@@ -1,0 +1,67 @@
+{
+    "businesses": [
+      {
+        "name": "CrossFit Iron Legion",
+        "address": "217 Southeast 1st Avenue, Ocala, FL, USA, Florida, USA 34471",
+        "phone": "352-620-2625",
+        "email": "info@crossfitironlegion.com", 
+        "order": 1,
+        "website": "https://crossfitironlegion.com/",
+        "imageurl": "https://kismetcreative.wpengine.com/wp-content/uploads/2021/06/IRON-LEGION_RUNE-09.png"
+      },
+      {
+        "name": "Kid City USA Ocala",
+        "address": "819 Southeast 1st Terrace, Ocala, FL, USA, Florida, USA 32617",
+        "phone": "352-421-9120",
+        "email": "ocala@kidcityusa.com",
+        "order": 2,
+        "website": "https://kidcityusa.com/",
+        "imageurl": "https://kidcityusa.com/wp-content/uploads/2020/09/Kid-City-USA-Logo.png"
+      },
+      {
+         "name": "Marion Theatre",
+        "address": "50 South Magnolia Avenue, Ocala, FL, USA, USA 34471",
+        "phone": "352-820-3049",
+        "email": "info@reillyartscenter.com",
+        "order": 3,
+        "website": "https://www.reillyartscenter.com/themarion/",
+        "imageurl": "https://www.reillyartscenter.com/app/uploads/Donation-Page-2.png"
+      },
+      {
+         "name": "Thrive Chiropractic",
+        "address": "606 Southeast 1st Avenue, Ocala, FL, USA, Florida, USA 64471",
+        "phone": "352-299-1285",
+        "email": "hello@thrivewithchiro.com",
+        "order": 4,
+        "website": "https://thrivewithchiro.com/",
+        "imageurl": "https://assets.cdn.msgsndr.com/kcdsZxtDNiHHMa6qxWly/media/6193e094b29a7315f4c215e6.png"
+      },
+      {
+         "name": "Ocala Oral Surgery",
+        "address": "212 S. Magnolia Ave, USA 34471",
+        "phone": "352-732-4427",
+        "email": "melanie@ocalaoralsurgery.com",
+        "order": 5,
+        "website": "https://www.ocalaoralsurgery.com/",
+        "imageurl": "https://www.ocalaoralsurgery.com/wp-content/themes/ocala-oral-surgery/images/ocala-oral-surgery-web-logo.png"
+      },
+      {
+         "name": "The Mustard Seed Collection",
+        "address": "56 SE 1st Ave #102, Ocala, FL 34471, USA",
+        "phone": "352-854-0294",
+        "email": "bucci@themustardseedcollection.com",
+        "order": 6,
+        "website": "https://www.themustardseedcollection.com/",
+        "imageurl": "https://cdn.shopify.com/s/files/1/1479/3082/files/The_Mustard_Seed_Logo_-_Black_300x300.png?v=1626815242"
+  },
+      {
+         "name": "Brick & Iron Cafe",
+        "address": "217 Southeast 1st Avenue, Ocala, FL, USA, B, USA 34471",
+        "phone": "352-820-0878",
+        "email": "brickandiron@gmail.com",
+        "order": 7,
+        "website": "https://brickandironcafe.com/",
+        "imageurl": "https://brickandironcafe.com/wp-content/uploads/2020/10/Brick-and-I-ron-logo-.png"
+      }
+    ]
+  }  

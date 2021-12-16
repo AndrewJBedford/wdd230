@@ -4,131 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Soda Springs Page is for Weather Project Preston Idaho">
-    <link rel="stylesheet" href="../lesson11/css/normalize.css">
-    <link rel="stylesheet" href="../lesson11/css/small.css"/>
-    <link rel="stylesheet" href="../lesson11/css/medium.css"/>
-    <link rel="stylesheet" href="../lesson11/css/large.css"/>
+    <meta name="description" content="The Community page provides historical and current demographic information about the city">
+    <link rel="stylesheet" href="../lesson13/css/normalize.css">
+    <link rel="stylesheet" href="../lesson13/css/small.css"/>
+    <link rel="stylesheet" href="../lesson13/css/medium.css"/>
+    <link rel="stylesheet" href="../lesson13/css/large.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
-    <script defer src="../lesson11/js/date.js"></script>
-    <title>Soda Springs Page</title>
+    <script defer src="../lesson13/js/date.js"></script>
+    <title>Community</title>
 </head>
 <body>
-    <aside id="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</aside>
     <header>
-        <img class="logo" src="../lesson11/images/logo.png" alt="Site Logo">
+        <img class="logo" src="../lesson13/images/chamberlogo.png" alt="Site Logo">
         <section>
-            <h1>Always Sunny in Preston</h1>
-            <q class="motto">Always Sunny in Preston, ain't no better place</q>
+            <h1>Ocala Community Group Executives</h1>
+            <q class="motto">Growth and Progress</q>
         </section>
     </header>
         <nav>
             <button onclick="toggleMenu()"> &#9776; Menu </button> 
             <ul id ="menu" class="primaryNav">
-                <li><a href="../lesson9/index.html">Home</a></li>
-                <li><a href="../lesson11/preston-11.html">Preston</a></li>
-                <li class="active"><a href="../lesson11/sodasprings.html">Soda Springs</a></li>
-                <li><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
-                <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-                <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+                <li><a href="../lesson13/services.html">Home</a></li>
+                <li class="active"><a href="../lesson13/community.html">Ocala</a></li>
+                <li><a href="../lesson13/growth.html">Join</a></li>
+                <li><a href="../lesson13/business.html">Directory</a></li>
+                <li><a href="../lesson13/contacts.html">Contact</a></li>
             </ul>
         </nav>
         <main>
-            <h2>Soda Springs</h2>
+            <h2>Community</h2>
             <section class="hero-content">
                 <div class="hero">
                     <picture class="hero-picture">
-                        <source srcset="images/sodasprings2.jpg"
+                        <source srcset="images/Living-in-Moving-to-Ocala2.png.jpg"
                             media="(min-width:36rem) and (max-width:64rem)">
-                        <source srcset="images/sodasprings3.jpg" media="(min-width:64rem)">
-                        <img class="hero-img" src="../lesson11/images/sodasprings1.jpg" alt="Soda Springs view">
+                        <source srcset="images/Living-in-Moving-to-Ocala3.png" media="(min-width:64rem)">
+                        <img class="hero-img" src="../lesson13/images/Living-in-Moving-to-Ocala1.png" alt="Silver Springs Area">
                     </picture>
                 </div>    
-                    <div class="weathersummary">
-                            <h2>Weather Summary</h2>
-                            <ul>
-                                <li>Currently:<span id="current">Sligthly cloudy</span></li>
-                                <li>High:<span id="climate">46.77 &deg;F</span></li>
-                                <li>Temp:<span id="Temp">39 &deg;F</span></li>
-                                <li>Wind Chill:<span id="Wind-Chill"></span></li>
-                                <li>Humidity:<span id="Humidity"> 79%</span></li>
-                                <li>Wind Speed:<span id="Wind-Speed">5 mph</span></li>
-                            </ul>
-                        </div>
-                    </section>                           
-            <h3>5 Day Forecast</h3>
-            <div class="flex">
-              <div class="flex-col">
-                <span class="col-head">Mon</span>
-                <img class="hot1" src="../lesson11/images/hotsunicon.png" alt="sunny">
-                <span class="data">70 &deg;F</span>
-              </div>
-              <div class="flex-col">
-                <span class="col-head">Wed</span>
-                <img class="hot2" src="../lesson11/images/hotsunicon.png" alt="sunny">
-                <span class="data">75 &deg;F</span>
-              </div>
-              <div class="flex-col">
-                <span class="col-head">Fri</span>
-                <img class="hot3" src="../lesson11/images/hotsunicon.png" alt="sunny">
-                <span class="data">85 &deg;F</span>
-              </div>
-              <div class="flex-col">
-                <span class="col-head">Sat</span>
-                <img class="hot4" src="../lesson11/images/hotsunicon.png" alt="sunny">
-                <span class="data">90 &deg;F</span>
-              </div>
-              <div class="flex-col">
-                <span class="col-head">Sun</span>
-                <img class="hot5" src="../lesson11/images/hotsunicon.png" alt="sunny">
-                <span class="data">95 &deg;F</span>
-              </div>
-    </div>
+                <img class="articleimg" src="../lesson13/images/thingstodo.jpg" alt="Things to do in the area">     
+    <h4>Current Events</h4>
+    <ul>
+        <li><a href="https://www.ocala.com/story/news/nonprofits/2021/12/13/marion-county-dogs-cats-horses-wags-angel-tree/8750339002/" target="_blank">Angel tree finds homes for adoptable pets, food and toys for community animals</a></li>
+        <li><a href="https://www.ocala.com/story/news/2021/12/14/marion-county-man-charged-killing-pig-squeals-too-much/8894059002/" target="_blank">Summerfield man reportedly killed 600-pound pig because it squealed too much</a></li>
+        <li><a href="https://www.ocala.com/story/news/2021/12/12/grace-episcopal-bazaar-helps-local-women-and-children/6454703001/" target="_blank">Grace Episcopal group raises money to help local women and children</a></li>
+        <li><a href="https://www.ocala.com/story/news/2021/12/10/doug-oswald-former-ocala-mayor-businessman-veteran-dies-98/6452771001/" target="_blank">'One of the fathers of the community:' Doug Oswald, former Ocala mayor, dies at 98</a></li>
+        <li><a href="https://www.ocala.com/story/news/local/2021/12/08/new-look-ocala-city-council-ready-get-work/6425497001/" target="_blank">New Ocala City Council members sworn in and already hard at work</a></li>
+        <li><a href="https://nucamprv.com/event/silver-springs-holiday-event/" target="_blank">Silver Springs Holiday Event</a></li>
+        <li><a href="https://www.floridastateparks.org/events/holiday-craft-bazaar" target="_blank">Holiday Craft Bazaar</a></li>
+    </ul>
 <div class="article-container">
-    <h4 class="article-title">Four hikers injured in avalanche on Torreys Peak near Georgetown</h4>
+    <h4 class="article-title">Ocala to have another warm December week</h4>
     <p class="article-content">
-        Four hikers were injured when they were caught in an avalanche on a Colorado peak, authorities said Sunday.
-        The Clear Creek County Sheriff’s Office said it received a report of people being swept into a rock field by an avalanche just after 9 a.m. 
-        Sunday on Torreys Peak, a popular hiking spot near Georgetown. 
-        The hikers sustained minor injuries and were able to leave the mountain on their own or were evacuated, Undersheriff Bruce Snelling said.
+        Ocala residents can expect another December week with above average temperatures, 
+        according to Sunday's seven-day forecast from the National Weather Service in Jacksonville. 
+        Cold fronts have not been as strong this month following a cooler-than-average November,
+        said Jason Hess, meteorologist with the NWS, and December temperatures in the Florida peninsula have been warmer than normal so far as cold temperatures are staying over the northern U.S.
+        "It does look like eventually, that pattern will break down toward the end of the month," Hess said. 
+        "Whether it happens in time for Christmas or not, that is the question."
     </p>
-    <img class="articleimg" src="../lesson11/images/sodaspringsmountains.jpeg" alt="Mountain Hiking Trail">
+    <img class="articleimg" src="../lesson13/images/ocaladowntown.jpg" alt="Ocala Downtown Area">
 </div>
-<div class="events"></div> 
-<div class="information">
-    <img class="Prestonmap" src="../lesson11/images/prestonmap.jpg" alt="Prestonmap">
+<h4>Ocala Community</h4>
+<div class="events"></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jKIJingbUhg" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="contact">
-    <h4>Always Sunny in Preston</h4>
-        <p> &#128205; 57 N 67 E Waterfall ln. Preston, ID 83263<br>
-            &#9742; (208)675-9578<br>
-            &#9993; alwayssunnyinpreston@gmail.com</p><br>
-                <div class ="social">
-                    <a href ="https://www.facebook.com">
-                    <img src="../lesson11/images/facebookicon.png" alt="Facebook Icon"></a>
-                    <a href ="https://www.instagram.com">
-                    <img src="../lesson11/images/instagramicon.png" alt="Instagram Icon"></a>
-                    <a href ="https://www.twitter.com">
-                    <img src="../lesson11/images/twittericon.png" alt="Twitter Icon"></a>
-                    <a href ="https://www.pinterest.com">
-                    <img src="../lesson11/images/pinteresticon.png" alt="Pinterest Icon"></a>
-                    <a href ="https://www.youtube.com">
-                    <img src="../lesson11/images/youtubeicon.png" alt="Youtube Icon"></a>
-                    <a href ="https://www.googleplus.com">
-                    <img src="../lesson11/images/googleplusicon.png" alt="GooglePlus Icon"></a>
-                    </div>
-                </div>
-            </div>
         </main>
-        <footer><p>&copy;<span id="copyrightyear"></span> Always Sunny in Preston | Attributions | Andrew Bedford</p>
+        <footer><p>&copy;<span id="copyrightyear"></span> Ocala Community Group Executives | <a href="../lesson12/siteplan.html" target="_blank">Resources</a> | Andrew Bedford</p>
             <span id="currentDate"></span>
 </footer>
-<script src="../lesson11/js/menu.js"></script>
-<script src="../lesson11/js/windchill.js"></script>
+<script src="../lesson13/js/menu.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="../lesson11/js/banner.js"></script>
-<script src="../lesson11/js/webfontload.js"></script>
-<script src="../lesson11/js/towndata.js"></script>
+<script src="../lesson13/js/webfontload.js"></script>
+<script src="../lesson13/js/events.js"></script>
 </body>
 </html>

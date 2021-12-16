@@ -11,8 +11,6 @@
     .hero-img {
         margin: 10px auto;
         position: relative;
-        max-width: 960px;
-        height: 250px;
 }
     .hero-content {
         position: relative;
@@ -55,7 +53,7 @@
         padding: 10px;
         justify-content: right;
         text-align: center; 
-        border: 5px solid #000;
+        border: 5px solid black;
 }
    .social {
         display: flex;

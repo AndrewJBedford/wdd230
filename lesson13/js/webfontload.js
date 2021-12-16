@@ -1,1 +1,1 @@
-WebFont.load({google: {families: ['Berkshire Swash']}});
+WebFont.load({google: {families: ['Arimo', sans-serif]}});

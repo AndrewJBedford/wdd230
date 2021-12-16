@@ -3,6 +3,15 @@ main {
     padding: 0.5rem;
     background-color:#C3CAD0;;
 }
+#banner {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    background-color: #ffa700;
+    color: whitesmoke;
+    font-family:'Asul', sans-serif;
+}
 header {
     text-align: center;
     background-color:#153F65;
@@ -25,7 +34,7 @@ header img {
     display: flex;
     margin: auto;
 }
-.ocalamap{
+.Prestonmap{
     max-width: 33%;
     padding-left: 150px;
     display: none;
@@ -355,7 +364,7 @@ form input.submitBtn{
     padding: 1rem;
     text-align: center;
 }
-.cards > div{
+  .town-data > div{
          margin:auto;
          width: auto;
          height: auto;
@@ -363,24 +372,24 @@ form input.submitBtn{
          background-color:#153F65;
          border: 5px solid #000;
 }
-div.cards{
+    div.town-data{
     	text-align: center;
         padding-top: 5px;
         margin: auto;
         width: auto;
 }
-div.cards img {
+    div.town-data img {
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
         width: auto;
         height: auto;
 }
-div.cards:nth-child(even) {
+     div.town-data:nth-child(even) {
          flex-direction: row-reverse;
          padding-right: 0;
 }
-div.cards:nth-child(even) img {
+     div.town-data:nth-child(even) img {
          margin: 6px 3px 6px auto;
 } 
 
