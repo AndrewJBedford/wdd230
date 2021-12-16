@@ -11,9 +11,9 @@ fetch(requestURL)
             if (ocala[i].name == ocalaName) {
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
-                h2.textContent = ocala[i].name + "events:";
+                h2.textContent = ocala[i].name + "Events:";
                 card.appendChild(h2);
-                document.querySelector('.events').appendChild(card);
+                document.querySelector('div.events').appendChild(card);
 
                 for (let e = 0; e < ocala[i].events.length; e++) {
                     let p1 = document.createElement('p');

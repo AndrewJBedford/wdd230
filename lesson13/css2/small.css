@@ -149,52 +149,6 @@ ul {
     line-height: 100%;
     text-align:center;  
 }
-.temp {
-    grid-column: 2;
-    line-height: 100%;
-    margin-right: 100px;
-    text-align: center; 
-}
-.flex { 
-    display: flex;
-    flex-flow: row wrap;
-    margin: 50px;
-    border: 5px solid black;
-    padding-left: 150px;
-   
-    background-color: #153F65;
-    color: whitesmoke;
-}
- .flex-col {
-    border: 2px solid black;
-    text-align: center;
-}
- .flex-col:hover {
-    background-color:#00F57A;
-    color:whitesmoke;
-    opacity: 0.75;
-}
-.col-head {
-    display: flex;
-    padding: 10px;
-    text-align: center;
-    font-size: 1rem;
-    background-color: #003E1F;
-    color: whitesmoke;
-}
-.data {
-    display: flex;
-    padding: 0 10px 10px;
-    font-size: 2rem;
-    text-align: center;
-}
-.hot1, .hot2, .hot3 {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100px;
-    padding: 0.25rem;
-} 
 .article-container {
     margin: 10px auto;
     border: 1px solid #000;
@@ -233,113 +187,17 @@ img {
     max-height: 100%;
     display: flex;
 }
-.figure {
+ul.current {
     margin: auto;
-}
-figcaption {
-    display: grid;
-    font-size: smaller;
-    text-align: center;
-    padding-right: 3.5rem;
-}
-
-form {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-    background-color: whitesmoke;
-    max-width: 25rem;
-}
-form fieldset {
-    margin: 1rem;
-    border: 1px solid #003E1F;
-    border-radius: 10px;
-    padding: 1rem;
-    color:#003E1F;
-    background-color: whitesmoke; 
-}
-form legend {
-    font-size: 1.5rem;
-    color: #153F65;
-    margin: auto;
-    padding: .5rem;
-}
-form label.top,
-form div {
-    display: block;
-    padding-top: 1rem;
-    color: black;
-    font-size: 1.1rem;
-}
-form label input, 
-form label select {
-    display: block;
-    font-size: 16px;
-    border-radius: 1px;
-    padding: .5rem;
-    color:#153F65;
-    max-width: 20rem;
-    background-color: white;
-}
-form label.top input,
-form label.top select,
-textarea {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px;
-    padding: .5rem;
-    color:#003E1F ;
-    width:100%;
-    background-color: white;
-}
-textarea {
-    display: block;
-    margin-left: .2rem;
-    max-width: 20rem;
-    min-height: 100px;
-}
-form label.top input:required {
-    border-left: red solid 6px;
-}
-form label.top input:required:valid {
-    border-left:green solid 6px;
-}
-form label{
-    display: block;
-    padding: .75rem 0;
-    color: black;
-}
-.level{
-	display:grid;
-}
-input[type="radio"] {
-    height: 25px;
-    width: 25px;
-    display: inline-block;
-    vertical-align: middle;
-}
-label[for="comments"]{
-    margin: auto;
-}
-form input.submitBtn{
-    margin: auto;
-    border: none;
-    display:flex;
-    background-color:#153F65;
-    color:whitesmoke;
-    padding: .65rem;
-}
-.submit{
-    background-color:whitesmoke;
-    padding: 1rem;
-    text-align: center;
+    width: auto;
+    height: auto;
 }
 .events{
-    background-color:#153F65;
-    color:#FFCF3D;
-    padding: 1rem;
-    text-align:center;
-    margin: 0.5rem;
-    max-width: 100%;
-    border: 5px solid #000;
+background-color:#000;
+color:#FFCF3D;
+padding: 1rem;
+text-align:center;
+margin: 0.5rem;
+max-width: 100%;
+border: 5px solid #000;
 }

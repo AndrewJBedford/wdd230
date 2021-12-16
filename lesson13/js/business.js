@@ -13,14 +13,14 @@ fetch(requestURL)
         let email = document.createElement('p');
         let website = document.createElement('p');
         let image = document.createElement('img');
-        h2.textContent = businessess[i].name;
-        email.textContent = "Email: "+ businessess[i].email;
-        website.textContent = ": "+ businessess[i].website;
+        h2.textContent = businesses[i].name;
+        email.textContent = "Email: "+ businesses[i].email;
+        website.textContent = ": "+ businesses[i].website;
         card.appendChild(h2);
         card.appendChild(email);
         card.appendChild(website);
         card.appendChild(image); 
-        image.setAttribute('src', businessess[i].imageurl);
+        image.setAttribute('src', businesses[i].imageurl);
         document.querySelector('.cards').appendChild(card)
       }
   });
