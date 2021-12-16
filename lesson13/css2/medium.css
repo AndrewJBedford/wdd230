@@ -17,12 +17,6 @@
         margin: 10px auto;
         width: auto;
 }
-   .weathersummary {
-        position: absolute;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;  
-}
     .article-container {
         padding-left: 8rem;
         display: grid;
@@ -43,17 +37,12 @@
         margin-bottom: 15px;
         padding: 15px;
 }
-   .Prestonmap {
-        display:block;
-        float: left;
-        margin-top: 10px;
-}
    .contact {
         margin: 10px;
         padding: 10px;
         justify-content: right;
         text-align: center; 
-        border: 5px solid black;
+        border: 5px solid #000;
 }
    .social {
         display: flex;
@@ -75,4 +64,5 @@
         display: grid; 
         grid-template-columns: 1fr 1fr;
     }
+
 }
