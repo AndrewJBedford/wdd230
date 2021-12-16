@@ -18,14 +18,8 @@ main {
     background-color: green;
     border-radius: 23px;
     border: 1px solid #000;
-}
-img {
-    margin-top: 20px;
-    border-style: 1px solid #000;
-    box-sizing: border-box;
-    box-shadow: 0 0 20px 0 #000;
-    background-color: grey;    
-}
+   }
+
 @media only screen and (min-width: 600px) {
     .cards {
         grid-template-columns: repeat(1, 1fr);

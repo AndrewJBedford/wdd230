@@ -1,13 +1,13 @@
 main {
     margin: 0.5em;
     padding: 0.5rem;
-    background-color:#C3CAD0;;
+    border: 5px solid #000;
+    background-color: #493B2A
 }
-
 header {
     text-align: center;
-    background-color:#153F65;
-    font-family:'Berkshire Swash', cursive;
+    background-color:#A80874;
+    font-family:'Arimo', sans-serif;
     max-width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -15,7 +15,7 @@ header {
     margin-top: 4%;
 }
 header img {
-    width: 80px;
+    width: auto;
     height: auto;
     padding: 0.5rem;
     margin: 0;
@@ -29,19 +29,19 @@ header img {
 h1 {
     font-size: 2rem;
     margin: auto;
-    color:#FFCF3D;
-    font-family:'Berkshire Swash', cursive;
+    color:#B7FDFE;
+    font-family:'Arimo', sans-serif;
     margin-top: 4%;
     text-align: center;
 }
 h2, h3 {
     font-family:'Berkshire Swash', cursive;
-    color:#003E1F;
+    color:#2B9720;
     text-align:center;
 }
 h4, h5 {
     font-family:'Berkshire Swash', cursive;
-    color:#FFCF3D;
+    color:#2B9720;
     text-align:center;
 }
 h2 {
@@ -57,20 +57,20 @@ h5 {
     font-size: 1rem;
 }
 .motto {
-    font-size: 10pt;
-    color:#FFCF3D;
-    font-family:'Berkshire Swash', cursive;
-    text-align:center;
+    font-size: 15pt;
+    color:#B7FDFE;
+    font-family:'Arimo', sans-serif;
+    text-align: center;
     font-style: italic;
 }
 p {
-    color:#FFCF3D;
+    color:#B7FDFE;
     font-size: 1rem;
     font-family:'Asul', sans-serif;
     text-align: center;
 }
 a {
-    color:#FFCF3D;
+    color:#2B9720;
     font-size: 1.3rem;
     font-family:'Asul', sans-serif;
     text-decoration: none;
@@ -78,14 +78,14 @@ a {
 }
 button {
     background-color:#003E1F;
-    color:#00F57A;
+    color:#5EF38C;
     font-size: 1rem;
     font-family:'Asul', sans-serif;
 }
 nav {
-	background-color:#003E1F;
+	background-color:#493B2A;
     font-size: 1rem;
-    color:#00F57A;
+    color:#5EF38C;
 	text-align: center;
 	box-shadow:10px 5px 5px black;
     max-width: 100%;
@@ -93,8 +93,8 @@ nav {
 nav button {
     margin: 0.5rem 5%;
     font-size: 1rem;
-    background-color:#003E1F;
-    color:#00F57A;
+    background-color:#493B2A;
+    color:#5EF38C;
     border: none;
     font-family: 'Asul', sans-serif;
 }
@@ -102,10 +102,10 @@ nav ul.primaryNav {
     display:none;
 }
 .active {
-    background-color:rgba(214, 128, 15, 0.486);
+    background-color:rgb(15 214 186);
 }
 nav ul li a {
-    color:#FFCF3D;
+    color:#A80874;
 	display: grid;
 	text-align: center;
 	padding: 0.75rem;
@@ -118,8 +118,8 @@ nav a:link, nav a:visited {
     color:whitesmoke;
 }
 nav a:hover {
-    background-color:#FFCF3D;
-    color:#153F65;
+    background-color:#A80874;
+    color:#B7FDFE;
 }
 nav ul {
     list-style-type: none;
@@ -132,7 +132,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	color:#003E1F;
+	color:#2B9720;
 }
 .hero {
 	margin: auto;
@@ -158,11 +158,10 @@ ul {
 .flex { 
     display: flex;
     flex-flow: row wrap;
-    margin: 50px;
-    border: 5px solid black;
-    padding-left: 150px;
-   
-    background-color: #153F65;
+    margin: auto;
+    border: 5px solid #000;
+    padding-left: 310px;
+    background-color: #A80874;
     color: whitesmoke;
 }
  .flex-col {
@@ -170,8 +169,8 @@ ul {
     text-align: center;
 }
  .flex-col:hover {
-    background-color:#00F57A;
-    color:whitesmoke;
+    background-color:#B7FDFE;
+    color:#000;
     opacity: 0.75;
 }
 .col-head {
@@ -179,7 +178,7 @@ ul {
     padding: 10px;
     text-align: center;
     font-size: 1rem;
-    background-color: #003E1F;
+    background-color: #2B9720;
     color: whitesmoke;
 }
 .data {
@@ -198,7 +197,7 @@ ul {
 .article-container {
     margin: 10px auto;
     border: 1px solid #000;
-    background-color:#153F65;
+    background-color:#A80874;
     padding: 15px;
 }
  *{
@@ -207,7 +206,7 @@ ul {
     line-height: 1.1em;
 }
 .contact {
-	background-color:#153F65; 
+	background-color:#A80874; 
 }
 .social {
     display: flex;
@@ -215,8 +214,8 @@ ul {
    justify-content: center;
 }
 footer {
-    background-color:#153F65;
-    color:#FFCF3D;
+    background-color:#A80874;
+    color:#B7FDFE;
     padding: 1rem;
     text-align:center;
     margin: 0.5rem;
@@ -252,15 +251,15 @@ form {
 }
 form fieldset {
     margin: 1rem;
-    border: 1px solid #003E1F;
+    border: 1px solid #493B2A;
     border-radius: 10px;
     padding: 1rem;
-    color:#003E1F;
+    color:#493B2A;
     background-color: whitesmoke; 
 }
 form legend {
     font-size: 1.5rem;
-    color: #153F65;
+    color: 2B9720;
     margin: auto;
     padding: .5rem;
 }
@@ -268,7 +267,7 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: black;
+    color: #000;
     font-size: 1.1rem;
 }
 form label input, 
@@ -277,7 +276,7 @@ form label select {
     font-size: 16px;
     border-radius: 1px;
     padding: .5rem;
-    color:#153F65;
+    color:#2B9720;
     max-width: 20rem;
     background-color: white;
 }
@@ -288,7 +287,7 @@ textarea {
     font-size: 1rem;
     border: solid 1px;
     padding: .5rem;
-    color:#003E1F ;
+    color:#493B2A;
     width:100%;
     background-color: white;
 }
@@ -307,7 +306,7 @@ form label.top input:required:valid {
 form label{
     display: block;
     padding: .75rem 0;
-    color: black;
+    color: #000;
 }
 .level{
 	display:grid;
@@ -325,7 +324,7 @@ form input.submitBtn{
     margin: auto;
     border: none;
     display:flex;
-    background-color:#153F65;
+    background-color: #2B9720;
     color:whitesmoke;
     padding: .65rem;
 }
@@ -335,8 +334,8 @@ form input.submitBtn{
     text-align: center;
 }
 .events{
-    background-color:#153F65;
-    color:#FFCF3D;
+    background-color: #A80874;
+    color:#B7FDFE;
     padding: 1rem;
     text-align:center;
     margin: 0.5rem;
