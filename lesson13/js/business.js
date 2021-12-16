@@ -5,7 +5,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    const businessess = jsonObject['businesses'];      
+    const businesses = jsonObject['businesses'];      
     console.table(jsonObject);  
     for (let i = 0; i < businesses.length; i++ ) {
         let card = document.createElement('section');
@@ -15,7 +15,7 @@ fetch(requestURL)
         let image = document.createElement('img');
         h2.textContent = businesses[i].name;
         email.textContent = "Email: "+ businesses[i].email;
-        website.textContent = ": "+ businesses[i].website;
+        website.textContent = "Website: "+ businesses[i].website;
         card.appendChild(h2);
         card.appendChild(email);
         card.appendChild(website);
