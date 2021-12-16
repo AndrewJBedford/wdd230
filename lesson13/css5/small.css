@@ -3,6 +3,15 @@ main {
     padding: 0.5rem;
     background-color:#C3CAD0;;
 }
+#banner {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    background-color: #ffa700;
+    color: whitesmoke;
+    font-family:'Asul', sans-serif;
+}
 header {
     text-align: center;
     background-color:#153F65;
@@ -24,6 +33,11 @@ header img {
     max-height: 100%;
     display: flex;
     margin: auto;
+}
+.Prestonmap{
+    max-width: 33%;
+    padding-left: 150px;
+    display: none;
 }
 h1 {
     font-size: 2rem;
@@ -143,6 +157,74 @@ ul {
     max-height: 100%;
     margin: 25px auto;
 }
+.weathersummary {
+	display: grid;
+    top: 20px;
+    left: 10px;
+    margin-right: 10px;
+    padding: 0.5rem;
+    background: radial-gradient(#eee, #153F65);
+    border: 2px solid black;
+    box-shadow: 0 0 30px rgba(128, 128, 128, 0.582);
+    opacity: .9;
+}
+.weathersummary h2{
+	font-size: 20px;
+}
+.weathersummary p{
+	font-size: 15px;
+}
+.name {
+    grid-column: 1;
+    line-height: 100%;
+    text-align:center;  
+}
+.temp {
+    grid-column: 2;
+    line-height: 100%;
+    margin-right: 100px;
+    text-align: center; 
+}
+.flex { 
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px;
+    border: 5px solid black;
+    padding-left: 150px;
+   
+    background-color: #153F65;
+    color: whitesmoke;
+}
+ .flex-col {
+    border: 2px solid black;
+    text-align: center;
+}
+ .flex-col:hover {
+    background-color:#00F57A;
+    color:whitesmoke;
+    opacity: 0.75;
+}
+.col-head {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #003E1F;
+    color: whitesmoke;
+}
+.data {
+    display: flex;
+    padding: 0 10px 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+.hot1, .hot2, .hot3, .hot4, .hot5 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    padding: 0.25rem;
+} 
 .article-container {
     margin: 10px auto;
     border: 1px solid #000;
