@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/AndrewJBedford/wdd230/blob/master/lesson13/directory/ocalaevents.json';
+const requestURL = 'https://raw.githubusercontent.com/AndrewJBedford/wdd230/master/lesson13/directory/ocalaevents.json';
 
 fetch(requestURL)
     .then(function (response) {
