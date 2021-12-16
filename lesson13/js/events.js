@@ -13,7 +13,7 @@ fetch(requestURL)
                 let h2 = document.createElement('h2');
                 h2.textContent = ocala[i].name + "events:";
                 card.appendChild(h2);
-                document.querySelector('div.events').appendChild(card);
+                document.querySelector('.events').appendChild(card);
 
                 for (let e = 0; e < ocala[i].events.length; e++) {
                     let p1 = document.createElement('p');
